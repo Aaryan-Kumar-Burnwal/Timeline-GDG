@@ -1,111 +1,106 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaTwitter, FaLinkedin, FaYoutube, FaInstagram } from "react-icons/fa";
+import { FaTwitter, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 
 export default function Hero() {
+  const title = "Google Developer Group Ranchi";
+
   return (
-    <section className="pt-32 pb-20 text-center bg-gradient-to-b from-blue-50 via-white to-gray-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
-      {/* Profile Image */}
-      <motion.img
-        src="/images/profile.png"
-        alt="GDG Ranchi"
-        className="w-44 h-44 mx-auto rounded-full border-4 border-gray-300 shadow-xl"
-        initial={{ scale: 0.8, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 0.7, ease: "easeOut" }}
-      />
+    <section
+      className="relative min-h-screen flex flex-col justify-center items-center text-center px-6 
+      animate-gradient bg-[radial-gradient(circle_at_top_left,#4285F4,transparent_30%),radial-gradient(circle_at_bottom_right,#EA4335,transparent_30%)] 
+      bg-gradient-to-r from-[#34A853] via-[#FBBC05] to-[#EA4335] bg-[length:200%_200%] bg-[position:0%_50%]"
+    >
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/30"></div>
 
-      {/* Name & Location */}
-      <motion.h1
-        initial={{ opacity: 0, y: 40 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.3, duration: 0.7 }}
-        className="mt-8 text-5xl font-extrabold bg-gradient-to-r from-blue-600 via-green-500 to-red-500 bg-clip-text text-transparent tracking-tight"
-      >
-        Google Developer Group Ranchi
-      </motion.h1>
-
-      <motion.p
-        initial={{ opacity: 0, y: 40 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.5, duration: 0.7 }}
-        className="mt-3 text-2xl font-semibold text-gray-700 dark:text-gray-300"
-      >
-        Ranchi, Jharkhand
-      </motion.p>
-
-      {/* Description */}
-      <motion.p
-        initial={{ opacity: 0, y: 40 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.7, duration: 0.7 }}
-        className="mt-6 max-w-3xl mx-auto text-lg md:text-xl leading-relaxed text-gray-700 dark:text-gray-300"
-      >
-        <strong>GDG Ranchi</strong> is a local community of developers passionate
-        about Google technologies.  
-        We host{" "}
-        <span className="font-semibold text-blue-600 dark:text-blue-400">
-          DevFest 2024 → 2025
-        </span>{" "}
-        with inspiring sessions on Cloud, Web, and App Development to bring
-        together{" "}
-        <span className="font-medium text-green-600 dark:text-green-400">
-          developers, learners, and innovators
-        </span>
-        .
-      </motion.p>
-
-      {/* Social Links */}
       <motion.div
-        className="flex justify-center gap-8 mt-8 text-3xl"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1, duration: 0.8 }}
-      >
-        <a
-          href="https://x.com/gdgrnc"
-          target="_blank"
-          className="hover:text-blue-500 transition-colors"
-        >
-          <FaTwitter />
-        </a>
-        <a
-          href="https://www.linkedin.com/company/gdgrnc/posts/?feedView=all"
-          target="_blank"
-          className="hover:text-blue-700 transition-colors"
-        >
-          <FaLinkedin />
-        </a>
-        <a
-          href="https://www.youtube.com/@GDGRanchi"
-          target="_blank"
-          className="hover:text-red-600 transition-colors"
-        >
-          <FaYoutube />
-        </a>
-        <a
-          href="https://www.instagram.com/gdgranchi/"
-          target="_blank"
-          className="hover:text-pink-500 transition-colors"
-        >
-          <FaInstagram />
-        </a>
-      </motion.div>
-
-      {/* Call to Action */}
-      <motion.div
-        initial={{ opacity: 0, y: 30 }}
+        initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 1.2, duration: 0.8 }}
-        className="mt-10"
+        transition={{ duration: 1 }}
+        className="relative z-10 text-white max-w-3xl"
       >
-        <a
-          href="#timeline"
-          className="px-6 py-3 rounded-full bg-blue-600 text-white text-lg font-semibold shadow-md hover:bg-blue-700 transition"
+        {/* Logo */}
+        <img
+          src="/images/profile.png"
+          alt="GDG Ranchi"
+          className="w-32 h-32 rounded-full mx-auto mb-6 shadow-xl border-4 border-white"
+        />
+
+        {/* Animated Title */}
+        <h1 className="text-4xl md:text-5xl font-extrabold mb-4 flex flex-wrap justify-center gap-1">
+          {title.split("").map((char, index) => (
+            <motion.span
+              key={index}
+              initial={{ y: -80, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{
+                delay: index * 0.08,
+                type: "spring",
+                stiffness: 300,
+                damping: 12,
+              }}
+              className="inline-block"
+            >
+              {char === " " ? "\u00A0" : char}
+            </motion.span>
+          ))}
+        </h1>
+
+        {/* Subtitle */}
+        <p className="text-lg md:text-xl mb-6">
+          Jharkhand • Building a community of developers, innovators, and learners.
+        </p>
+
+        {/* CTA Button */}
+        <motion.div
+          whileHover={{ scale: 1.1 }}
+          className="inline-block px-6 py-3 rounded-full bg-white text-black font-semibold shadow-lg cursor-pointer"
         >
-          🚀 Join DevFest 2025
-        </a>
+          Join Our Journey 🚀
+        </motion.div>
+
+        {/* Social Links */}
+        <motion.div
+          className="mt-8 flex justify-center gap-6"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: title.length * 0.08 + 0.5 }}
+        >
+          <a
+            href="https://x.com/gdgrnc"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:scale-125 transition-transform duration-300 text-[#1DA1F2]"
+          >
+            <FaTwitter size={32} />
+          </a>
+          <a
+            href="https://www.instagram.com/gdgranchi/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:scale-125 transition-transform duration-300 text-[#E4405F]"
+          >
+            <FaInstagram size={32} />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/gdgrnc/posts/?feedView=all"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:scale-125 transition-transform duration-300 text-[#0A66C2]"
+          >
+            <FaLinkedin size={32} />
+          </a>
+          <a
+            href="https://www.youtube.com/@GDGRanchi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:scale-125 transition-transform duration-300 text-[#FF0000]"
+          >
+            <FaYoutube size={32} />
+          </a>
+        </motion.div>
       </motion.div>
     </section>
   );

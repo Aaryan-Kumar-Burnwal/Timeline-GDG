@@ -1,57 +1,59 @@
 "use client";
 
-import Link from "next/link";
 import { motion } from "framer-motion";
-
-const navLinks = [
-  { name: "Home", href: "/" },
-  { name: "Projects", href: "/projects" },
-  { name: "Contact", href: "/contact" },
-];
+import Link from "next/link";
 
 export default function Navbar() {
+  const navLinks = [
+    { name: "Home", href: "#home" },
+    { name: "Upcoming Events", href: "#timeline" },
+    { name: "Contacts", href: "#footer" },
+  ];
+
   return (
     <motion.nav
       initial={{ y: -80, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.7, ease: "easeOut" }}
-      className="fixed top-0 left-0 right-0 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-md z-50"
+      transition={{ duration: 0.6, ease: "easeOut" }}
+      className="fixed top-0 left-0 w-full z-50 bg-[length:200%_200%] bg-[position:0%_50%] animate-gradient 
+      bg-gradient-to-r from-[#1a237e] via-[#1e88e5] to-[#34a853] shadow-md"
     >
-      <div className="container mx-auto flex justify-between items-center py-3 px-6">
-        {/* Logo + Title */}
+      {/* Overlay for readability */}
+      <div className="absolute inset-0 bg-black/30"></div>
+
+      <div className="relative container mx-auto flex justify-between items-center py-4 px-6 z-10">
+        {/* Logo */}
         <motion.div
-          initial={{ scale: 0.9 }}
-          animate={{ scale: 1 }}
-          transition={{ duration: 0.8, repeat: Infinity, repeatType: "reverse", ease: "easeInOut" }}
-          className="flex items-center gap-3"
+          whileHover={{ scale: 1.05 }}
+          className="flex items-center gap-2"
         >
           <img
-            src="/images/profile.png"
+            src="/images/gdg-logo.png"
             alt="GDG Ranchi"
-            className="w-10 h-10 rounded-full border-2 border-gray-300"
+            className="w-10 h-10 rounded-full border-2 border-white shadow-md"
           />
-          <span className="font-bold text-lg bg-gradient-to-r from-blue-600 via-green-500 to-red-500 bg-clip-text text-transparent">
+          <span className="text-lg md:text-xl font-bold text-white drop-shadow-md">
             GDG Ranchi
           </span>
         </motion.div>
 
-        {/* Links */}
-        <div className="flex gap-6 font-medium text-gray-700 dark:text-gray-200">
-          {navLinks.map((link, i) => (
-            <motion.div
-              key={i}
+        {/* Nav Links */}
+        <ul className="hidden md:flex gap-10 font-medium text-white">
+          {navLinks.map((link, index) => (
+            <motion.li
+              key={index}
               whileHover={{ scale: 1.1 }}
               transition={{ type: "spring", stiffness: 300 }}
-              className="relative group"
+              className="group relative"
             >
-              <Link href={link.href} className="hover:text-blue-600 transition-colors">
+              <Link href={link.href} className="transition-colors duration-300">
                 {link.name}
               </Link>
-              {/* Underline Animation */}
-              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-blue-600 via-green-500 to-red-500 transition-all group-hover:w-full"></span>
-            </motion.div>
+              {/* Animated underline with bright Google accent */}
+              <span className="absolute left-0 -bottom-1 w-0 h-[3px] bg-gradient-to-r from-[#ea4335] via-[#fbbc05] to-[#4285f4] transition-all duration-300 group-hover:w-full"></span>
+            </motion.li>
           ))}
-        </div>
+        </ul>
       </div>
     </motion.nav>
   );
