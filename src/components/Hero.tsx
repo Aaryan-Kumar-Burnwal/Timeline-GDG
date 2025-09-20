@@ -1,107 +1,113 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaTwitter, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { Twitter, Instagram, Linkedin, Youtube } from "lucide-react";
+import Image from "next/image";
 
 export default function Hero() {
-  const title = "Google Developer Group Ranchi";
-
   return (
-    <section
-      className="relative min-h-screen flex flex-col justify-center items-center text-center px-6 
-      animate-gradient bg-[radial-gradient(circle_at_top_left,#4285F4,transparent_30%),radial-gradient(circle_at_bottom_right,#EA4335,transparent_30%)] 
-      bg-gradient-to-r from-[#34A853] via-[#FBBC05] to-[#EA4335] bg-[length:200%_200%] bg-[position:0%_50%]"
-    >
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/30"></div>
+    <section className="relative min-h-screen flex flex-col justify-center items-center text-center px-6 bg-gradient-to-br from-black via-gray-950 to-gray-900">
+      {/* Subtle background pattern */}
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(66,133,244,0.1),transparent_50%),radial-gradient(circle_at_70%_80%,rgba(52,168,83,0.1),transparent_50%)]"></div>
 
       <motion.div
-        initial={{ opacity: 0, y: 40 }}
+        initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
-        className="relative z-10 text-white max-w-3xl"
+        transition={{ duration: 0.8, ease: "easeOut" }}
+        className="relative z-10 max-w-4xl"
       >
         {/* Logo */}
-        <img
-          src="/images/profile.png"
-          alt="GDG Ranchi"
-          className="w-32 h-32 p-9 rounded-full mx-auto mb-6 shadow-xl border-4 border-white text-center"
-        />
+        <div className="mb-8">
+          <Image
+            src="/images/gdgLogo.png"
+            alt="GDG Ranchi"
+            width={90}
+            height={60}
+            className="mx-auto drop-shadow-sm"
+          />
+        </div>
 
-        {/* Animated Title */}
-        <h1 className="text-4xl md:text-5xl font-extrabold mb-4 flex flex-wrap justify-center gap-1">
-          {title.split("").map((char, index) => (
-            <motion.span
-              key={index}
-              initial={{ y: -80, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{
-                delay: index * 0.08,
-                type: "spring",
-                stiffness: 300,
-                damping: 12,
-              }}
-              className="inline-block"
-            >
-              {char === " " ? "\u00A0" : char}
-            </motion.span>
-          ))}
+        {/* Title */}
+        <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 tracking-tight leading-tight">
+          Google Developer Group
+          <span className="block text-blue-400 mt-2">Ranchi</span>
         </h1>
 
         {/* Subtitle */}
-        <p className="text-lg md:text-xl mb-6">
-          Jharkhand • Building a community of developers, innovators, and
-          learners.
+        <p className="text-xl md:text-2xl text-gray-300 mb-8 font-light max-w-2xl mx-auto leading-relaxed">
+          Jharkhand's premier tech community for developers, innovators, and
+          learners
         </p>
 
         {/* CTA Button */}
-        <motion.div
-          whileHover={{ scale: 1.1 }}
-          className="inline-block px-6 py-3 rounded-full bg-white text-black font-semibold shadow-lg cursor-pointer"
+        <motion.button
+          whileHover={{ y: -1 }}
+          whileTap={{ scale: 0.98 }}
+          className="inline-flex items-center gap-2 px-8 py-4 bg-blue-600 text-white font-semibold 
+          rounded-lg shadow-lg hover:bg-blue-700 hover:shadow-xl transition-all duration-300 mb-12"
         >
-          Join Our Journey 🚀
-        </motion.div>
+          Join Our Community
+          <span className="text-lg">→</span>
+        </motion.button>
 
         {/* Social Links */}
-        <motion.div
-          className="mt-8 flex justify-center gap-6"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: title.length * 0.08 + 0.5 }}
-        >
-          <a
+        <div className="flex justify-center gap-8">
+          <motion.a
             href="https://x.com/gdgrnc"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:scale-125 transition-transform duration-300 text-[#1DA1F2]"
+            whileHover={{ y: -2 }}
+            className="p-3 rounded-full bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 shadow-lg hover:shadow-xl transition-all duration-300 
+            text-gray-400 hover:text-white group"
           >
-            <FaTwitter size={32} />
-          </a>
-          <a
+            <Twitter
+              size={24}
+              className="group-hover:scale-110 transition-transform duration-200"
+            />
+          </motion.a>
+
+          <motion.a
             href="https://www.instagram.com/gdgranchi/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:scale-125 transition-transform duration-300 text-[#E4405F]"
+            whileHover={{ y: -2 }}
+            className="p-3 rounded-full bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 shadow-lg hover:shadow-xl transition-all duration-300 
+            text-gray-400 hover:text-[#E4405F] group"
           >
-            <FaInstagram size={32} />
-          </a>
-          <a
+            <Instagram
+              size={24}
+              className="group-hover:scale-110 transition-transform duration-200"
+            />
+          </motion.a>
+
+          <motion.a
             href="https://www.linkedin.com/company/gdgrnc/posts/?feedView=all"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:scale-125 transition-transform duration-300 text-[#0A66C2]"
+            whileHover={{ y: -2 }}
+            className="p-3 rounded-full bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 shadow-lg hover:shadow-xl transition-all duration-300 
+            text-gray-400 hover:text-[#0A66C2] group"
           >
-            <FaLinkedin size={32} />
-          </a>
-          <a
+            <Linkedin
+              size={24}
+              className="group-hover:scale-110 transition-transform duration-200"
+            />
+          </motion.a>
+
+          <motion.a
             href="https://www.youtube.com/@GDGRanchi"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:scale-125 transition-transform duration-300 text-[#FF0000]"
+            whileHover={{ y: -2 }}
+            className="p-3 rounded-full bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 shadow-lg hover:shadow-xl transition-all duration-300 
+            text-gray-400 hover:text-[#FF0000] group"
           >
-            <FaYoutube size={32} />
-          </a>
-        </motion.div>
+            <Youtube
+              size={24}
+              className="group-hover:scale-110 transition-transform duration-200"
+            />
+          </motion.a>
+        </div>
       </motion.div>
     </section>
   );

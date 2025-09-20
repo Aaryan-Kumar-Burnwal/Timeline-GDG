@@ -4,107 +4,104 @@
     "about": "This years DevFest explores how AI can be responsibly developed or applied to keep its users safe, from business to healthcare to education. We acknowledge AIs potential while also recognizing the challenges it presents.",
     "description": "Dont miss this incredible opportunity to expand your knowledge and network with industry leaders. Gain valuable insights from expert talks, join networking opportunities, participate in hands-on workshops, explore startup demos and solutions, and enjoy exciting giveaways and prizes. Key themes include Responsible AI, Cloud, Mobile, Flutter, TensorFlow, Gemini, Gemma, and more.",
     "date": "October 19, 2024",
-    "time": "9:00 AM -- 5:00 PM GMT530",
+    "time": "9:00 AM -- 5:00 PM",
     "location": "Jharkhand University of Technology, Science Technology Campus, Sirkha Toli, Kali Nagar, Namkum, Ranchi, Barganwa, Jharkhand 834010, Ranchi, 834010",
     "institute": "Jharkhand University of Technology",
-    "slug": "devfest-2024-ranchi-october-19-2024-jharkhand-university-of-technology"
+    "slug": "devfest-2024-ranchi-october-19-2024-jharkhand-university-of-technology",
+    "images": [
+      "/images/Devfest2024/Devfest2024.JPG",
+      "/images/Devfest2024/Devfest2024(1).JPG",
+      "/images/Devfest2024/Devfest2024(2).JPG",
+      "/images/Devfest2024/Devfest2024(3).JPG",
+      "/images/Devfest2024/Devfest2024(4).JPG"
+    ]
   },
   {
     "title": "UIUX Arena",
     "about": "Step into the world of UIUX and bring your lively ideas into action! In collaboration with EDC, Google Developer Group Ranchi brings you an electrifying event UIUX Arena where you can collaborate, innovate and create stunning designs and showcase your creative genius. Lets redefine the art of user experience.",
     "description": "UIUX Arena is a thrilling event designed to test your creativity and problem-solving skills in design. The competition has two stages a quiz to challenge theoretical knowledge and a hands-on design task to showcase practical skills. Guidelines include team sign-up, elimination in round 1 quiz, and design challenge in round 2 using Figma without AI features. Prizes include INR 10K Google Developer Group goodies.",
     "date": "January 26 -- February 2, 2025",
-    "time": "6:27 AM -- 5:00 PM GMT530",
+    "time": "6:27 AM -- 5:00 PM",
     "location": "Birla Institute of Technology - Mesra, LH1 LH2, Mesra, 835215",
     "institute": "Birla Institute of Technology - Mesra",
     "slug": "uiux-arena-january-26-february-2-2025-birla-institute-of-technology-mesra",
     "images": [
-    "/images/uiuxArena/uiux (1).jpg",
-    "/images/uiuxArena/uiux (2).jpg",
-    "/images/uiuxArena/uiux (3).jpg"
-  ]
+      "/images/uiuxArena/uiux (1).jpg",
+      "/images/uiuxArena/uiux (2).jpg",
+      "/images/uiuxArena/uiux (3).jpg"
+    ]
   },
   {
     "title": "Build With AI Code, Create Innovate!",
     "about": "Google Developer Group Ranchi, in collaboration with Women Tech Makers, is hosting a Build with AI 2025 event to celebrate, educate, and inspire in tech through impactful talks, panel discussions, and networking sessions.",
     "description": "Join GDG Ranchi for an exciting hands-on workshop as part of Build with AI 2025! Dive into Generative AI with Gemini models, leverage Firebase for seamless app integration, explore Vertex AI for model deployment, and implement Vector Search for intelligent data retrieval. This workshop is designed for developers of all skill levels, offering practical insights into building AI-powered applications with Googles cutting-edge technologies. Build with AI events are community-led, hands-on activities aimed to help developers acquire and apply Generative AI skills using the latest Google AI tools and models. The agenda includes leveraging Gemma for RAG-based application development, break and networking sessions, and interactive quizzes with prize giveaways.",
     "date": "March 29, 2025",
-    "time": "9:00 AM -- 4:00 PM GMT530",
+    "time": "9:00 AM -- 4:00 PM",
     "location": "Indian Institute of Information Technology Ranchi, P.O. Hazaribagh Road, Getlatu, 835217",
     "institute": "Indian Institute of Information Technology Ranchi",
     "slug": "build-with-ai-code-create-innovate-march-29-2025-indian-institute-of-information-technology-ranchi",
     "images": [
-    "/images/BuildWithAI-IIIT-Ranchi/BWAI-IIIT-Ranchi (1).jpg",
-    "/images/BuildWithAI-IIIT-Ranchi/BWAI-IIIT-Ranchi (2).jpg",
-    "/images/BuildWithAI-IIIT-Ranchi/BWAI-IIIT-Ranchi (3).jpg"
-  ]
+      "/images/BuildWithAI-IIIT-Ranchi/BWAI-IIIT-Ranchi (1).jpg",
+      "/images/BuildWithAI-IIIT-Ranchi/BWAI-IIIT-Ranchi (2).jpg",
+      "/images/BuildWithAI-IIIT-Ranchi/BWAI-IIIT-Ranchi (3).jpg"
+    ]
   },
   {
     "title": "Build With AI HackHorizon -- Where Innovation Meets Reality!",
     "about": "GDG Ranchi is thrilled to host Build with AI, featuring expert talks and discussions on the latest advancements in AI and Cloud technologies...",
     "description": "The event will showcase Next-Gen Modernization with sessions on Generative AI, Kubernetes, and Google Cloud in Action, covering AI-assisted code refactoring, containerization, and building scalable, intelligent, and cloud-native solutions. An outstanding networking opportunity with industry professionals is included. As part of the event, Arka Jain University in collaboration with GDG Ranchi and other partners will host Hack Horizon, a hackathon where participants solve real-world challenges. The event is invite-only, and shortlisted participants will be notified by email.",
     "date": "April 11, 2025",
-    "time": "10:00 AM -- 5:00 PM GMT530",
+    "time": "10:00 AM -- 5:00 PM",
     "location": "ARKA JAIN University, Mohanpur, Gamharia, Mohanpur, 832108",
     "institute": "ARKA JAIN University",
     "slug": "build-with-ai-hackhorizon-where-innovation-meets-reality-april-11-2025-arka-jain-university",
     "images": [
-    "/images/BuildWithAI-ArkaJainUniversity/BWAI-ArkaJain (1).jpeg",
-    "/images/BuildWithAI-ArkaJainUniversity/BWAI-ArkaJain (2).jpg",
-    "/images/BuildWithAI-ArkaJainUniversity/BWAI-ArkaJain (3).jpeg",
-    "/images/BuildWithAI-ArkaJainUniversity/BWAI-ArkaJain (4).jpeg"
-  ]
+      "/images/BuildWithAI-ArkaJainUniversity/BWAI-ArkaJain (1).jpeg",
+      "/images/BuildWithAI-ArkaJainUniversity/BWAI-ArkaJain (2).jpg",
+      "/images/BuildWithAI-ArkaJainUniversity/BWAI-ArkaJain (3).jpeg",
+      "/images/BuildWithAI-ArkaJainUniversity/BWAI-ArkaJain (4).jpeg"
+    ]
   },
   {
     "title": "Understanding Cybersecurity in the age of Generative AI",
     "about": "Organized by GDG Ranchi in collaboration with Usha Martin University, this event focuses on the security challenges arising with the rapid adoption of Generative AI technologies. Attendees will explore the dark side of Gen AI including prompt injections, jailbreaking, and advanced AI exploits.",
     "description": "While developers create magic with AI, attackers are finding new ways to break it. This session dives deep into real Gen AI security threats and how to tackle them, offering insights from a seasoned AI expert, Nikhilesh, IIT Kharagpur alumnus and Google Developer Expert. Participants will learn about AI vulnerabilities and network with fellow tech enthusiasts to build AI that is not just smart but also secure.",
     "date": "May 9, 2025",
-    "time": "11:15 AM -- 12:30 PM GMT530",
+    "time": "11:15 AM -- 12:30 PM",
     "location": "Usha Martin University, Village Narayansoso, Near Angara Block Office, Ranchi - Purulia Highway, Angara, Ranchi - 835103, Jharkhand, Ranchi, 835103",
     "institute": "Usha Martin University",
     "slug": "understanding-cybersecurity-in-the-age-of-generative-ai-may-9-2025-usha-martin-university",
     "images": [
-    "/images/UshaMartin-Cybersecurity/UshaMartin-Cybersec (1).jpg",
-    "/images/UshaMartin-Cybersecurity/UshaMartin-Cybersec (2).jpg",
-    "/images/UshaMartin-Cybersecurity/UshaMartin-Cybersec (3).jpg",
-    "/images/UshaMartin-Cybersecurity/UshaMartin-Cybersec (4).jpg",
-    "/images/UshaMartin-Cybersecurity/UshaMartin-Cybersec (5).jpg"
-  ]
-},
-{
-  "title": "Build with AI Workshop Edition",
-  "about": "Get ready for a power-packed tech workshop where ideas meet innovation! Whether youre a tech enthusiast, a future entrepreneur, or an AI-curious mind --- this event is your launchpad to the next big thing. Organized by Xavier TechByte Society, Department of Computer Science, St. Xaviers College Ranchi in collaboration with GDG Ranchi.",
-  "description": "Exclusive for St. Xaviers College students, this event offers hands-on AI Cloud workshop sessions for learning by doing, live demos and practical building exercises, free cloud credits to kickstart AICloud projects, inspiring sessions from real-world tech experts, actionable strategies for learning, building, and scaling, and networking with like-minded tech enthusiasts. The event encourages understanding local innovation and balancing studies with tech pursuits.",
-  "date": "May 10, 2025",
-  "time": "10:00 AM -- 3:00 PM GMT530",
-  "location": "St. Xaviers College, Ranchi, Doctor Camil Bulcke Path, Ranchi, 834001",
-  "institute": "St. Xaviers College",
-  "slug": "build-with-ai-workshop-edition-may-10-2025-st-xaviers-college",
-  "images": [
-  "/images/Build-with-AI-Workshop-Edition-St-XavierCollege/BwAI-Workshop-XavierCollege (1).jpg",
-  "/images/Build-with-AI-Workshop-Edition-St-XavierCollege/BwAI-Workshop-XavierCollege (2).jpg",
-  "/images/Build-with-AI-Workshop-Edition-St-XavierCollege/BwAI-Workshop-XavierCollege (3).jpg",
-  "/images/Build-with-AI-Workshop-Edition-St-XavierCollege/BwAI-Workshop-XavierCollege (4).jpg",
-  "/images/Build-with-AI-Workshop-Edition-St-XavierCollege/BwAI-Workshop-XavierCollege (5).png"
-  ]
+      "/images/UshaMartin-Cybersecurity/UshaMartin-Cybersec (1).jpg",
+      "/images/UshaMartin-Cybersecurity/UshaMartin-Cybersec (2).jpg",
+      "/images/UshaMartin-Cybersecurity/UshaMartin-Cybersec (3).jpg",
+      "/images/UshaMartin-Cybersecurity/UshaMartin-Cybersec (4).jpg",
+      "/images/UshaMartin-Cybersecurity/UshaMartin-Cybersec (5).jpg"
+    ]
   },
   {
-    "title": "National Symposium on Mathematical Innovations and Its Industrial Applications NSMIIA 2025",
-    "about": "This three-day symposium brought together academic and industry experts for insightful talks and panel discussions on the latest innovations in mathematics and their real-world industrial applications...",
-    "description": "We organized plenary talks by renowned experts, panel discussions, and networking opportunities. The event included the biggest math exhibition of the year called MATRIX 2025---a competitive and exciting showcase where participants brought math-rich, industry-relevant models, innovative algorithms, tech-driven solutions, and research that can transform industries. Participants shared ideas bridging theory with practical impact, received exciting prizes, certificates, and recognition.",
-    "date": "August 8--10, 2025",
-    "time": "",
-    "location": "Department of Mathematics, Birla Institute of Technology BIT Mesra, Ranchi, Jharkhand, India",
-    "institute": "Birla Institute of Technology BIT Mesra",
-    "slug": "national-symposium-on-mathematical-innovations-and-its-industrial-applications-nsmiia-2025-august-8-10-2025-birla-institute-of-technology-bit-mesra"
+    "title": "Build with AI Workshop Edition",
+    "about": "Get ready for a power-packed tech workshop where ideas meet innovation! Whether youre a tech enthusiast, a future entrepreneur, or an AI-curious mind --- this event is your launchpad to the next big thing. Organized by Xavier TechByte Society, Department of Computer Science, St. Xaviers College Ranchi in collaboration with GDG Ranchhi.",
+    "description": "Exclusive for St. Xaviers College students, this event offers hands-on AI Cloud workshop sessions for learning by doing, live demos and practical building exercises, free cloud credits to kickstart AICloud projects, inspiring sessions from real-world tech experts, actionable strategies for learning, building, and scaling, and networking with like-minded tech enthusiasts. The event encourages understanding local innovation and balancing studies with tech pursuits.",
+    "date": "May 10, 2025",
+    "time": "10:00 AM -- 3:00 PM",
+    "location": "St. Xaviers College, Ranchi, Doctor Camil Bulcke Path, Ranchi, 834001",
+    "institute": "St. Xaviers College",
+    "slug": "build-with-ai-workshop-edition-may-10-2025-st-xaviers-college",
+    "images": [
+      "/images/Build-with-AI-Workshop-Edition-St-XavierCollege/BwAI-Workshop-XavierCollege (1).jpg",
+      "/images/Build-with-AI-Workshop-Edition-St-XavierCollege/BwAI-Workshop-XavierCollege (2).jpg",
+      "/images/Build-with-AI-Workshop-Edition-St-XavierCollege/BwAI-Workshop-XavierCollege (3).jpg",
+      "/images/Build-with-AI-Workshop-Edition-St-XavierCollege/BwAI-Workshop-XavierCollege (4).jpg",
+      "/images/Build-with-AI-Workshop-Edition-St-XavierCollege/BwAI-Workshop-XavierCollege (5).png"
+    ]
   },
   {
     "title": "Wire to Web Hands on WebDev Workshop",
     "about": "Wire to Web is a beginner-friendly, hands-on web development workshop where youll learn to build and deploy real websites from scratch! The workshop covers HTML, CSS, JavaScript, backend basics, and hosting with Google Cloud, all live on MS Teams.",
     "description": "The session starts with an introduction to frontend, backend, and full-stack roles with tools like VS Code and GitHub. It includes live coding demos for building styled interactive web pages, backend development basics with Node.js, APIs, databases, and hosting projects on GitHub Pages and Google Cloud free tier. Participants get a guided learning path from HTML to React and backend, insights into Google Ecosystem resources, and interactive QA with portfolio reviews. All attendees receive certificates.",
     "date": "June 12, 2025",
-    "time": "4:45 PM -- 7:00 PM GMT530",
+    "time": "4:45 PM -- 7:00 PM",
     "location": "Online via MS Teams",
     "institute": "",
     "slug": "wire-to-web-hands-on-webdev-workshop-june-12-2025"
@@ -112,7 +109,7 @@
   {
     "title": "GDG Ranchis Summer TrainingInternship Program 2025",
     "about": "Registrations Open! Get ready to kickstart your tech journey with GDG Ranchis Summer TrainingInternship Program 2025 in collaboration with Piyush Academy! Open to all -- No experience needed, just passion consistency!",
-    "description": "Learn Full-Stack Web Development HTML, CSS, JS, React, Node.js, MongoDB, Google Cloud Firebase, GCP, Compute Engine, daily tasks, weekend projects, live deployment, mentorship, swags, spotlight, and internship certificate from GDG Ranchi. Capstone showcase to industry experts included.",
+    "description": "Learn Full-Stack Web Development HTML, CSS, JS, React, Node.js, MongoDB, Google Cloud Firebase, GCP, Compute Engine, daily tasks, weekend projects, live deployment, mentorship, swags, spotlight, and internship certificate from GDG Ranchhi. Capstone showcase to industry experts included.",
     "date": "June 14 -- July 19, 2025",
     "time": "",
     "location": "Hybrid Online Offline",
@@ -120,11 +117,61 @@
     "slug": "gdg-ranchis-summer-traininginternship-program-2025-june-14-july-19-2025"
   },
   {
+    "title": "Jharkhand Entrepreneurial Connect 2.0",
+    "about": "We successfully organized Jharkhand's Biggest Startup Summit in association with Jharkhand University of Technology (JUT), Ranchi, with Google Developer Group Ranchi as the official community partner. This marked the beginning of a long-term collaboration to empower the startup ecosystem in Jharkhand.",
+    "description": "We brought together over 250 participants including visionary leaders, government officials, startup founders, investors, and ecosystem enablers. The summit featured fireside chats with successful entrepreneurs, panel discussions on \"Jharkhand: An Opportunity or a Challenge for Startups?\", government schemes and grants sessions, and focused discussions on IPR & company incorporation. We conducted pitching rounds where out of 350+ startup applications, 25 were shortlisted and 7 emerging startups were awarded. Deshbandhu Mishra from GDG Ranchi represented our community at this insightful event and had the opportunity to share thoughts on GDG Ranchi and emerging technologies like AI/ML and Generative AI. The event included sessions on payment solutions by PhonePe and emphasized technology's pivotal role in startup success. This wasn't just an event but a movement towards building a stronger, self-reliant startup ecosystem in Jharkhand.",
+    "date": "July 12, 2025",
+    "time": "09:30 AM - 04:30 PM",
+    "location": "Jharkhand University of Technology (JUT), Ranchi, Jharkhand",
+    "institute": "Jharkhand University of Technology (JUT)",
+    "slug": "jharkhand-entrepreneurial-connect-2-0-july-12-2025-jharkhand-university-of-technology-jut"
+  },
+  {
+    "title": "GDG Ranchi Tech Session at NSU",
+    "about": "We organized an inspiring day at Netaji Subhas University, Jamshedpur, filled with insights, inspiration, and community vibes. This event focused on breaking barriers and expanding horizons in technology for all career paths.",
+    "description": "We conducted a powerful session featuring Piyush Academy who delivered an impactful presentation on \"The Role of AI, Data & Coding in Non-Tech Careers\" - demonstrating how technology can enhance and transform various professional fields beyond traditional tech roles. Shouvik proudly represented GDG Ranchi at this event, sharing our mission, vision, and the strength of community-driven growth. The session emphasized our core philosophy that together, we learn and together, we build. The event successfully bridged the gap between technology and non-technical careers, showing attendees how AI, data science, and coding skills can be valuable assets across all industries. This aligns with our commitment to making technology accessible and relevant for everyone, regardless of their career background.",
+    "date": "July 15, 2025",
+    "time": "",
+    "location": "Netaji Subhas University, Jamshedpur, Jharkhand",
+    "institute": "Netaji Subhas University (NSU)",
+    "slug": "gdg-ranchi-tech-session-at-nsu-july-15-2025-netaji-subhas-university-nsu"
+  },
+  {
+    "title": "DC Gumla Cybersecurity Initiative with GDG Ranchi",
+    "about": "We had the privilege of participating in the DC Gumla initiative on Cybersecurity with students from the Gumla district, Jharkhand. The presence of Hon'ble DC Ma'am Prerana Dikshit made the event even more special.",
+    "description": "We conducted a cybersecurity awareness and education session for students from across Gumla district as part of a district administration initiative. The event was graced by the presence of Hon'ble District Commissioner Smt. Prerana Dikshit (IAS), who has been serving as the 37th Deputy Commissioner of Gumla District since May 2025. Mr. Deshbandhu Mishra proudly represented GDG Ranchi at this important government initiative, delivering cybersecurity education and awareness to the local student community. The enthusiasm and active participation from the students were truly commendable, demonstrating their eagerness to learn about digital safety and security practices. This collaboration between GDG Ranchi and the district administration showcased our commitment to spreading technology awareness and cybersecurity knowledge to rural and semi-urban areas of Jharkhand. The event was part of broader efforts to enhance digital literacy and cyber awareness among students in the region.",
+    "date": "July 23, 2025",
+    "time": "",
+    "location": "Gumla District, Jharkhand",
+    "institute": "District Administration, Gumla (in collaboration with local educational institutions)",
+    "slug": "dc-gumla-cybersecurity-initiative-with-gdg-ranchi-july-23-2025-district-administration-gumla"
+  },
+  {
+    "title": "HACK8ON 2025",
+    "about": "We collaborated with Netaji Subhas University for HACK8ON — an offline 8-hour hackathon packed with innovation, creativity, and tech-driven problem solving. This event was organized by the CBNCC Club under the School of Information Technology at NSU with mentorship and monitoring from GDG Ranchi.",
+    "description": "We witnessed incredible energy and enthusiasm with nearly 43 teams participating, each working on unique and impactful use cases covering themes from AI/ML to Cybersecurity. Participants tackled real-world challenges with bold ideas and unstoppable energy in an industry-style coding environment. Our representatives Shouvik inspired future developers to dive into tech communities, while Deshbandhu Mishra delivered an eye-opening session on Gen AI trends. The event featured intensive collaboration to solve real-world tech problems with creativity and skill. Winners were announced as Code Crushers team (Ganesh Kumar, Ishan Kumar, Kunal Kumar) with Care Circuit team (Arif Raza, Shruti Kumari) as runners-up. The atmosphere was full of innovation and determination, showcasing passion, problem-solving, and programming prowess from all participants.",
+    "date": "July 26, 2025",
+    "time": "10:30 AM - 6:30 PM",
+    "location": "NSU Campus, Netaji Subhas University, Jamshedpur",
+    "institute": "Netaji Subhas University (NSU)",
+    "slug": "hack8on-2025-july-26-2025-netaji-subhas-university-nsu"
+  },
+  {
+    "title": "National Symposium on Mathematical Innovations and Its Industrial Applications (NSMIIA 2025)",
+    "about": "We successfully organized the National Symposium on Mathematical Innovations and Its Industrial Applications, hosted by the Department of Mathematics, BIT Mesra, celebrating BIT Mesra's 70 years of excellence. This premier event was dedicated to fostering innovative mathematical solutions for industrial progress and bringing together brilliant minds in mathematics, computing, and industry.",
+    "description": "We conducted a three-day symposium featuring insightful talks, panel discussions on the latest innovations in mathematics and their real-world applications in industry. The event included plenary talks by renowned academic and industry experts including Prof. Subhamoy Maitra (ISI Kolkata), Ms. Shirsha Ray Chaudhuri (Thompson Reuters), Dr. Kamal Das (IBM Research India), Anubhav Singh (GDG Ranchi), and Vijaykumar Jangamashetti (VJ). We organized the biggest math exhibition of the year called MATRIX 2025, where participants showcased mathematical models, tech-driven solutions, and research that can transform the real world. The event was supported by visionary sponsors including ANRF (SERB DST), Jharkhand Council on Science Technology & Innovation (JCST&I), GDG Ranchi (Google Developer Group), and Institution's Innovation Council (Ministry of HRD Initiative). The symposium featured mind-opening sessions, powerful keynote talks, game-changing ideas, networking opportunities, and a competitive exhibition with exciting prizes and certificates for all selected participants. The valedictory session celebrated all the hard work and innovation with incredible models from the Matrix competition, making it a celebration of innovation, research excellence, and industry-driven collaboration.",
+    "date": "August 8–10, 2025",
+    "time": "9:00 AM - 5:00 PM",
+    "location": "Department of Mathematics, Birla Institute of Technology (BIT) Mesra, Ranchi - 835215, Jharkhand",
+    "institute": "Birla Institute of Technology (BIT) Mesra",
+    "slug": "national-symposium-on-mathematical-innovations-and-its-industrial-applications-august-8-10-2025-birla-institute-of-technology-bit-mesra"
+  },
+  {
     "title": "DevSpark Pre-Hype DevFest25-- NIAMT",
     "about": "Join Google Developer Groups Ranchi for DevSpark at National Institute of Advanced Manufacturing Technology --- a pre-hype event for the highly anticipated DevFest 2025! This event is a sneak peek designed to spark excitement and give a taste of the bigger festival ahead.",
     "description": "Explore the latest trends in AI and Cloud development, gain hands-on exposure to real-world applications, receive cloud credits with guided training to explore Google Cloud, and participate in quiz sessions with winners getting exclusive free passes to DevFest 2025 Ranchi. Network with tech leaders and peers. DevSpark ignites the energy before DevFest sets it on fire.",
     "date": "August 30, 2025",
-    "time": "10:00 AM -- 10:0 PM GMT530",
+    "time": "10:00 AM -- 10:0 PM",
     "location": "NIAMT Ranchi Main Gate, NIFFT Gate to B-Tech Hostel, Ranchi, 834003",
     "institute": "NIAMT Ranchi",
     "slug": "devspark-pre-hype-devfest25-niamt-august-30-2025-niamt-ranchi"
@@ -134,7 +181,7 @@
     "about": "Join Google Developer Groups Ranchi for DevSpark at Ramgarh Engineering College in collaboration with Aarambh Community of Ramgarh Engineering College --- a pre-hype event leading up to DevFest 2025.",
     "description": "This event offers a chance to explore the latest trends in AI and Cloud development. Attendees can get hands-on exposure to real-world applications, receive cloud credits with guided training to explore Google Cloud practically, and participate in quiz sessions where winners earn exclusive free passes to DevFest 2025 Ranchi. The event aims to boost skills and foster community growth among passionate tech enthusiasts. DevSpark ignites the energy before DevFest sets it on fire.",
     "date": "September 2, 2025",
-    "time": "11:00 AM -- 12:30 PM GMT530",
+    "time": "11:00 AM -- 12:30 PM",
     "location": "Ramgarh Engineering College, Seminar Hall, Murubanda, 825101",
     "institute": "Ramgarh Engineering College",
     "slug": "devspark-pre-hype-devfest25-rec-september-2-2025-ramgarh-engineering-college"
@@ -144,7 +191,7 @@
     "about": "Join Google Developer Groups Ranchi for DevSpark at RVS College Of Engineering and Technology in collaboration with Helix Club of RVS College Of Engineering and Technology --- a pre-hype event for the highly anticipated DevFest 2025!",
     "description": "This event is your opportunity to dive into the latest trends in AI and Cloud development. It serves as a sneak peek designed to spark excitement and give participants a taste of the bigger festival ahead. Attendees will explore the latest tools, technologies, and innovations, gain hands-on exposure to real-world applications, receive cloud credits with guided training for Google Cloud, participate in quiz sessions where winners get exclusive free passes to DevFest 2025 Ranchi, and connect with tech leaders and like-minded peers. DevSpark ignites the energy, setting the stage for DevFest.",
     "date": "September 4, 2025",
-    "time": "9:30 AM -- 11:30 AM GMT530",
+    "time": "9:30 AM -- 11:30 AM",
     "location": "RVS College Of Engineering And Technology, Jamshedpur, Seminar Hall, Idalbera, 831012",
     "institute": "RVS College Of Engineering And Technology",
     "slug": "devspark-pre-hype-devfest25-rvs-september-4-2025-rvs-college-of-engineering-and-technology"
@@ -154,7 +201,7 @@
     "about": "Join Google Developer Groups Ranchi for DevSpark at IITISM Dhanbad in collaboration with CyberLabs --- a pre-hype event for the highly anticipated DevFest 2025!",
     "description": "This event offers a chance to explore the latest trends in AI and Cloud development. Attendees gain hands-on exposure to real-world applications, receive cloud credits with guided Google Cloud training, and participate in quiz sessions with winners receiving exclusive free passes to DevFest 2025 Ranchi. The event provides opportunities to connect with tech leaders and like-minded peers. DevSpark ignites excitement leading up to the main DevFest event.",
     "date": "September 6, 2025",
-    "time": "1:30 PM -- 3:30 PM GMT530",
+    "time": "1:30 PM -- 3:30 PM",
     "location": "Seminar Hall in New Academic Complex NAC, IIT Dhanbad Internal Road, Dhanbad, 826007",
     "institute": "IIT Dhanbad",
     "slug": "devspark-pre-hype-devfest25-iit-dhanbad-september-6-2025-iit-dhanbad"
@@ -164,7 +211,7 @@
     "about": "Join Google Developer Groups Ranchi for DevSpark at DSPMU in collaboration with Coders Hub DSPMU --- a pre-hype event for the highly anticipated DevFest 2025!",
     "description": "This event is an opportunity to explore the latest trends in AI and Cloud development. Attendees get hands-on exposure to real-world applications, cloud credits with guided Google Cloud training, and quiz sessions where winners receive exclusive free passes to DevFest 2025 Ranchi. It is designed to boost skills and foster growth among passionate tech enthusiasts. DevSpark ignites energy ahead of DevFest.",
     "date": "September 11, 2025",
-    "time": "10:53 AM -- 1:53 PM GMT530",
+    "time": "10:53 AM -- 1:53 PM",
     "location": "Dr. Shyama Prasad Mukherjee University, Post, Ranchi, 834008",
     "institute": "Dr. Shyama Prasad Mukherjee University",
     "slug": "devspark-pre-hype-devfest25-dspmu-september-11-2025-dr-shyama-prasad-mukherjee-university"
@@ -174,7 +221,7 @@
     "about": "Join Google Developer Groups Ranchi for DevSpark at Jharkhand Raksha Shakti University --- a pre-hype event for the highly anticipated DevFest 2025!...",
     "description": "This event is an opportunity to dive into the latest trends in AI and Cloud development, designed as a sneak peek to spark excitement for the bigger festival ahead. Attendees can explore the latest tools and innovations, gain hands-on exposure to real-world applications, receive cloud credits with guided Google Cloud training, participate in quiz sessions where winners get exclusive free passes to DevFest 2025 Ranchi, and network with tech leaders and peers. DevSpark ignites energy leading up to the DevFest main event.",
     "date": "September 12, 2025",
-    "time": "1:30 PM -- 3:00 PM GMT530",
+    "time": "1:30 PM -- 3:00 PM",
     "location": "Jharkhand Raksha Shakti University, Meurs Road, Ranchi, 834008",
     "institute": "Jharkhand Raksha Shakti University",
     "slug": "devspark-pre-hype-devfest25-jrsu-september-12-2025-jharkhand-raksha-shakti-university"
@@ -184,9 +231,29 @@
     "about": "Join Google Developer Groups Ranchi for DevSpark at BIT Deoghar in collaboration with IEEE Society --- a pre-hype event for the highly anticipated DevFest 2025!",
     "description": "This event offers a chance to explore the latest trends in AI and Cloud development as a sneak peek for the bigger festival ahead. Attendees will explore the latest tools and innovations, gain hands-on exposure to real-world applications, receive cloud credits with guided training to explore Google Cloud, participate in quiz sessions where winners get exclusive free passes to DevFest 2025 Ranchi, and connect with tech leaders and like-minded peers. DevSpark ignites the energy, setting the stage for DevFest.",
     "date": "September 13, 2025",
-    "time": "10:00 AM -- 11:30 AM GMT530",
+    "time": "10:00 AM -- 11:30 AM",
     "location": "Birla Institute of Technology Deoghar, Seminar Hall, Jasidih, 814142",
     "institute": "Birla Institute of Technology Deoghar",
     "slug": "devspark-pre-hype-devfest25-bit-devghar-september-13-2025-birla-institute-of-technology-deoghar"
+  },
+  {
+    "title": "DevFest 2025 Hype Event - Interactive Session with GDG Ranchi",
+    "about": "We organized an interactive online session in collaboration with GDG On Campus HIT to connect students with the organizers of the upcoming DevFest 2025 at BIT Mesra, Ranchi. This hype event served as a platform for students to directly engage with the GDG Ranchi team and learn about DevFest opportunities.",
+    "description": "We conducted an engaging online session where students from HIT had the opportunity to ask questions directly to the GDG Ranchi team about the upcoming DevFest 2025. The discussion provided valuable insights into DevFest, its opportunities, and the wider GDG community. Many students received exclusive discounts and free tickets for DevFest, making the session highly rewarding. Special thanks to Tushar Raj (GDG Ranchi Organizer), Vikas Shukla, and Vickey Pandey, who joined the session, actively engaged with students, and patiently cleared their doubts about the upcoming DevFest. The event was made possible through the constant support and guidance of POCs Anurag Anand and Ayush Sahu. This collaborative effort between GDG On Campus HIT and GDG Ranchi successfully generated excitement and awareness about DevFest 2025, while providing students direct access to organizers and exclusive benefits for the main event scheduled for October 11, 2025 at BIT Mesra, Ranchi.",
+    "date": "September 13, 2025",
+    "time": "Afternoon",
+    "location": "Online (hosted by Haldia Institute of Technology, West Bengal)",
+    "institute": "Haldia Institute of Technology (HIT)",
+    "slug": "devfest-2025-hype-event-interactive-session-with-gdg-ranchi-september-13-2025-haldia-institute-of-technology-hit"
+  },
+  {
+    "title": "DevSpark : Pre-Hype DevFest'25 -- BPUT (GoogleDev Spark – Pre Hype)",
+    "about": "We organized the first big stop of the Mega Pre-Hype Roadshows for Google DevFest'25 Ranchi in Rourkela. This event served as the spark before the storm, marking the countdown to innovation as part of our pre-hype campaign leading up to the main DevFest event.",
+    "description": "We conducted a grand event featuring an inspiring lineup of talks, fresh ideas, and powerful insights in collaboration with BPUT Rourkela. Our team delivered engaging sessions and the entire event was live-streamed on YouTube for broader reach and accessibility. This was designed as a sneak peek to spark excitement and give attendees a taste of the bigger DevFest festival ahead. The event was part of our comprehensive pre-hype roadshow strategy, building momentum across different cities and institutions leading up to DevFest 2025 Ranchi. The session aimed to explore the latest trends in AI and Cloud development, provide hands-on exposure to real-world applications, and offer networking opportunities with tech leaders and like-minded peers. As with other DevSpark events, participants had opportunities to receive cloud credits, guided training, and participate in activities that could earn them benefits for the main DevFest event.",
+    "date": "September 19, 2025",
+    "time": "10:00 AM onwards",
+    "location": "Biju Patnaik University of Technology (BPUT), Rourkela, Odisha",
+    "institute": "Biju Patnaik University of Technology (BPUT)",
+    "slug": "devspark-pre-hype-devfest25-bput-september-19-2025-biju-patnaik-university-of-technology-bput"
   }
 ]

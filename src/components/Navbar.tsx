@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   const navLinks = [
@@ -27,10 +28,12 @@ export default function Navbar() {
           whileHover={{ scale: 1.05 }}
           className="flex items-center gap-2"
         >
-          <img
-            src="/images/gdg-logo.png"
+          <Image
+            src="/images/gdgLogo.png"
             alt="GDG Ranchi"
-            className="w-10 h-10 rounded-full border-2 border-white shadow-md"
+            width={50}
+            height={30}
+            className=""
           />
           <span className="text-lg md:text-xl font-bold text-white drop-shadow-md">
             GDG Ranchi
