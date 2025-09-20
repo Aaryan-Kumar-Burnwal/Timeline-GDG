@@ -4,6 +4,7 @@ import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 import { useState, useCallback, useMemo } from "react";
 import * as React from "react";
 import ImageSlider from "./ImageSlider";
+import { Variants, easeOut } from "framer-motion";
 import {
   Calendar,
   Clock,
@@ -45,7 +46,7 @@ export default function Timeline() {
       y: 0,
       transition: {
         duration: shouldReduceMotion ? 0.1 : 0.3,
-        ease: "easeOut",
+        ease: easeOut,
       },
     },
     exit: {
@@ -65,7 +66,7 @@ export default function Timeline() {
           scale: 1.02,
           transition: {
             duration: 0.2,
-            ease: "easeOut",
+            ease: easeOut,
           },
         },
   };

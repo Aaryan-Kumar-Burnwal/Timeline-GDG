@@ -25,7 +25,7 @@ export default function Hero() {
         <img
           src="/images/profile.png"
           alt="GDG Ranchi"
-          className="w-32 h-32 rounded-full mx-auto mb-6 shadow-xl border-4 border-white"
+          className="w-32 h-32 p-9 rounded-full mx-auto mb-6 shadow-xl border-4 border-white text-center"
         />
 
         {/* Animated Title */}
@@ -50,7 +50,8 @@ export default function Hero() {
 
         {/* Subtitle */}
         <p className="text-lg md:text-xl mb-6">
-          Jharkhand • Building a community of developers, innovators, and learners.
+          Jharkhand • Building a community of developers, innovators, and
+          learners.
         </p>
 
         {/* CTA Button */}

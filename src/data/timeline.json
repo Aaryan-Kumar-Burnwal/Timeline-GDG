@@ -17,7 +17,12 @@
     "time": "6:27 AM -- 5:00 PM GMT530",
     "location": "Birla Institute of Technology - Mesra, LH1 LH2, Mesra, 835215",
     "institute": "Birla Institute of Technology - Mesra",
-    "slug": "uiux-arena-january-26-february-2-2025-birla-institute-of-technology-mesra"
+    "slug": "uiux-arena-january-26-february-2-2025-birla-institute-of-technology-mesra",
+    "images": [
+    "/images/uiuxArena/uiux (1).jpg",
+    "/images/uiuxArena/uiux (2).jpg",
+    "/images/uiuxArena/uiux (3).jpg"
+  ]
   },
   {
     "title": "Build With AI Code, Create Innovate!",
@@ -27,7 +32,12 @@
     "time": "9:00 AM -- 4:00 PM GMT530",
     "location": "Indian Institute of Information Technology Ranchi, P.O. Hazaribagh Road, Getlatu, 835217",
     "institute": "Indian Institute of Information Technology Ranchi",
-    "slug": "build-with-ai-code-create-innovate-march-29-2025-indian-institute-of-information-technology-ranchi"
+    "slug": "build-with-ai-code-create-innovate-march-29-2025-indian-institute-of-information-technology-ranchi",
+    "images": [
+    "/images/BuildWithAI-IIIT-Ranchi/BWAI-IIIT-Ranchi (1).jpg",
+    "/images/BuildWithAI-IIIT-Ranchi/BWAI-IIIT-Ranchi (2).jpg",
+    "/images/BuildWithAI-IIIT-Ranchi/BWAI-IIIT-Ranchi (3).jpg"
+  ]
   },
   {
     "title": "Build With AI HackHorizon -- Where Innovation Meets Reality!",
@@ -37,7 +47,13 @@
     "time": "10:00 AM -- 5:00 PM GMT530",
     "location": "ARKA JAIN University, Mohanpur, Gamharia, Mohanpur, 832108",
     "institute": "ARKA JAIN University",
-    "slug": "build-with-ai-hackhorizon-where-innovation-meets-reality-april-11-2025-arka-jain-university"
+    "slug": "build-with-ai-hackhorizon-where-innovation-meets-reality-april-11-2025-arka-jain-university",
+    "images": [
+    "/images/BuildWithAI-ArkaJainUniversity/BWAI-ArkaJain (1).jpeg",
+    "/images/BuildWithAI-ArkaJainUniversity/BWAI-ArkaJain (2).jpg",
+    "/images/BuildWithAI-ArkaJainUniversity/BWAI-ArkaJain (3).jpeg",
+    "/images/BuildWithAI-ArkaJainUniversity/BWAI-ArkaJain (4).jpeg"
+  ]
   },
   {
     "title": "Understanding Cybersecurity in the age of Generative AI",
@@ -47,17 +63,31 @@
     "time": "11:15 AM -- 12:30 PM GMT530",
     "location": "Usha Martin University, Village Narayansoso, Near Angara Block Office, Ranchi - Purulia Highway, Angara, Ranchi - 835103, Jharkhand, Ranchi, 835103",
     "institute": "Usha Martin University",
-    "slug": "understanding-cybersecurity-in-the-age-of-generative-ai-may-9-2025-usha-martin-university"
-  },
-  {
-    "title": "Build with AI Workshop Edition",
-    "about": "Get ready for a power-packed tech workshop where ideas meet innovation! Whether youre a tech enthusiast, a future entrepreneur, or an AI-curious mind --- this event is your launchpad to the next big thing. Organized by Xavier TechByte Society, Department of Computer Science, St. Xaviers College Ranchi in collaboration with GDG Ranchi.",
-    "description": "Exclusive for St. Xaviers College students, this event offers hands-on AI Cloud workshop sessions for learning by doing, live demos and practical building exercises, free cloud credits to kickstart AICloud projects, inspiring sessions from real-world tech experts, actionable strategies for learning, building, and scaling, and networking with like-minded tech enthusiasts. The event encourages understanding local innovation and balancing studies with tech pursuits.",
-    "date": "May 10, 2025",
-    "time": "10:00 AM -- 3:00 PM GMT530",
-    "location": "St. Xaviers College, Ranchi, Doctor Camil Bulcke Path, Ranchi, 834001",
-    "institute": "St. Xaviers College",
-    "slug": "build-with-ai-workshop-edition-may-10-2025-st-xaviers-college"
+    "slug": "understanding-cybersecurity-in-the-age-of-generative-ai-may-9-2025-usha-martin-university",
+    "images": [
+    "/images/UshaMartin-Cybersecurity/UshaMartin-Cybersec (1).jpg",
+    "/images/UshaMartin-Cybersecurity/UshaMartin-Cybersec (2).jpg",
+    "/images/UshaMartin-Cybersecurity/UshaMartin-Cybersec (3).jpg",
+    "/images/UshaMartin-Cybersecurity/UshaMartin-Cybersec (4).jpg",
+    "/images/UshaMartin-Cybersecurity/UshaMartin-Cybersec (5).jpg"
+  ]
+},
+{
+  "title": "Build with AI Workshop Edition",
+  "about": "Get ready for a power-packed tech workshop where ideas meet innovation! Whether youre a tech enthusiast, a future entrepreneur, or an AI-curious mind --- this event is your launchpad to the next big thing. Organized by Xavier TechByte Society, Department of Computer Science, St. Xaviers College Ranchi in collaboration with GDG Ranchi.",
+  "description": "Exclusive for St. Xaviers College students, this event offers hands-on AI Cloud workshop sessions for learning by doing, live demos and practical building exercises, free cloud credits to kickstart AICloud projects, inspiring sessions from real-world tech experts, actionable strategies for learning, building, and scaling, and networking with like-minded tech enthusiasts. The event encourages understanding local innovation and balancing studies with tech pursuits.",
+  "date": "May 10, 2025",
+  "time": "10:00 AM -- 3:00 PM GMT530",
+  "location": "St. Xaviers College, Ranchi, Doctor Camil Bulcke Path, Ranchi, 834001",
+  "institute": "St. Xaviers College",
+  "slug": "build-with-ai-workshop-edition-may-10-2025-st-xaviers-college",
+  "images": [
+  "/images/Build-with-AI-Workshop-Edition-St-XavierCollege/BwAI-Workshop-XavierCollege (1).jpg",
+  "/images/Build-with-AI-Workshop-Edition-St-XavierCollege/BwAI-Workshop-XavierCollege (2).jpg",
+  "/images/Build-with-AI-Workshop-Edition-St-XavierCollege/BwAI-Workshop-XavierCollege (3).jpg",
+  "/images/Build-with-AI-Workshop-Edition-St-XavierCollege/BwAI-Workshop-XavierCollege (4).jpg",
+  "/images/Build-with-AI-Workshop-Edition-St-XavierCollege/BwAI-Workshop-XavierCollege (5).png"
+  ]
   },
   {
     "title": "National Symposium on Mathematical Innovations and Its Industrial Applications NSMIIA 2025",
