@@ -3,7 +3,7 @@
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 import { useState, useCallback, useMemo } from "react";
 import * as React from "react";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight, Play, Pause } from "lucide-react";
 
 interface ImageSliderProps {
   images: string[];
@@ -27,12 +27,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
   showControls = true,
   showDots = true,
   showCounter = true,
-  placeholderImages = [
-    "/images/IMG_1.jpg",
-    "/images/IMG_2.jpg",
-    "/images/IMG_1.jpg",
-    "/images/uiuxArena/uiux(1).jpg"
-  ],
+  placeholderImages = ["/images/Event_Placeholder.png"],
   onImageChange,
 }) => {
   const [currentImage, setCurrentImage] = useState(0);
@@ -277,7 +272,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
               prevImage();
               setIsPlaying(false);
             }}
-            className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-white/90 hover:bg-white text-gray-700 w-9 h-9 rounded-full items-center justify-center transition-all duration-200 shadow-md opacity-0 group-hover:opacity-100 hidden md:flex"
+            className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-white/90 hover:bg-white text-gray-700 w-9 h-9 rounded-full flex items-center justify-center transition-all duration-200 shadow-md opacity-0 group-hover:opacity-100 hidden md:flex"
             aria-label="Previous image"
           >
             <ChevronLeft className="w-5 h-5" />
@@ -287,7 +282,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
               nextImage();
               setIsPlaying(false);
             }}
-            className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white/90 hover:bg-white text-gray-700 w-9 h-9 rounded-full sitems-center justify-center transition-all duration-200 shadow-md opacity-0 group-hover:opacity-100 hidden md:flex"
+            className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white/90 hover:bg-white text-gray-700 w-9 h-9 rounded-full flex items-center justify-center transition-all duration-200 shadow-md opacity-0 group-hover:opacity-100 hidden md:flex"
             aria-label="Next image"
           >
             <ChevronRight className="w-5 h-5" />
