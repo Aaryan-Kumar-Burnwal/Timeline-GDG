@@ -234,6 +234,18 @@ export default function Timeline() {
                             {ev.about}
                           </p>
                         </div> */}
+
+                        {/* small image slider to display new articles */}
+                        {/* <div className="mb-3 overflow-hidden rounded-lg border border-white/6 mt-5">
+                          <ImageSlider
+                            images={ev.images || []}
+                            alt={ev.title}
+                            className="h-[200px] sm:h-[180px] md:h-[200px]"
+                            showDots
+                            showControls
+                            showCounter
+                          />
+                        </div> */}
                       </div>
                     </div>
                   </div>

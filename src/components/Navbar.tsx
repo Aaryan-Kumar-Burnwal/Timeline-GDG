@@ -16,13 +16,15 @@ export default function Navbar() {
       initial={{ y: -80, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className="fixed top-0 left-0 w-full z-50 bg-[length:200%_200%] bg-[position:0%_50%] animate-gradient 
-      bg-gradient-to-r from-[#1a237e] via-[#1e88e5] to-[#34a853] shadow-md"
+      className="fixed top-3 left-1/2 -translate-x-1/2 w-[95%] z-50 
+bg-[length:200%_200%] bg-[position:0%_50%] animate-gradient 
+bg-gradient-to-r from-[#1a237e] via-[#1e88e5] to-[#34a853] 
+shadow-md rounded-4xl"
     >
       {/* Overlay for readability */}
       <div className="absolute inset-0 bg-black/30"></div>
 
-      <div className="relative container mx-auto flex justify-between items-center py-4 px-6 z-10">
+      <div className="relative container mx-auto flex justify-between items-center py-4 px-6 z-10 ">
         {/* Logo */}
         <motion.div
           whileHover={{ scale: 1.05 }}
