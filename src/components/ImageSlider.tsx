@@ -140,7 +140,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
   return (
     <motion.div
       className={`relative w-full rounded-md overflow-hidden border border-white/6 shadow-sm group ${className}`}
-      whileHover={shouldReduceMotion ? {} : { scale: 1.00 }}
+      whileHover={shouldReduceMotion ? {} : { scale: 1.0 }}
       transition={{ type: "tween", duration: 0.2 }}
       onMouseEnter={pauseSlideshow}
       onMouseLeave={resumeSlideshow}
@@ -154,7 +154,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
           key={currentImage}
           src={displayImages[currentImage]}
           alt={`${alt} - Image ${currentImage + 1}`}
-          className="w-full h-full object-cover select-none"
+          className="w-full h-full object-contain select-none"
           variants={imageVariants}
           initial="enter"
           animate="center"
@@ -209,7 +209,9 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
             <button
               key={i}
               onClick={() => goToImage(i)}
-              className={`w-2 h-2 rounded-full ${i === currentImage ? "bg-white" : "bg-white/40"}`}
+              className={`w-2 h-2 rounded-full ${
+                i === currentImage ? "bg-white" : "bg-white/40"
+              }`}
               aria-label={`Go to image ${i + 1}`}
             />
           ))}
