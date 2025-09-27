@@ -181,7 +181,12 @@
     "time": "",
     "location": "Gumla District, Jharkhand",
     "institute": "District Administration, Gumla (in collaboration with local educational institutions)",
-    "slug": "dc-gumla-cybersecurity-initiative-with-gdg-ranchi-july-23-2025-district-administration-gumla"
+    "slug": "dc-gumla-cybersecurity-initiative-with-gdg-ranchi-july-23-2025-district-administration-gumla",
+    "images": [
+      "/images/Gumla_Cybersecurity/Gumla_Cybersecurity_1.jpeg",
+      "/images/Gumla_Cybersecurity/Gumla_Cybersecurity_2.jpeg",
+      "/images/Gumla_Cybersecurity/Gumla_Cybersecurity_3.jpeg"
+    ]
   },
   {
     "title": "HACK8ON 2025",
@@ -220,7 +225,18 @@
     "time": "10:00 AM -- 10:0 PM",
     "location": "NIAMT Ranchi Main Gate, NIFFT Gate to B-Tech Hostel, Ranchi, 834003",
     "institute": "NIAMT Ranchi",
-    "slug": "devspark-pre-hype-devfest25-niamt-august-30-2025-niamt-ranchi"
+    "slug": "devspark-pre-hype-devfest25-niamt-august-30-2025-niamt-ranchi",
+    "images": [
+      "/images/Devspark_NIAMT/Devspark_NIAMT_1.jpg",
+      "/images/Devspark_NIAMT/Devspark_NIAMT_2.jpg",
+      "/images/Devspark_NIAMT/Devspark_NIAMT_3.jpg",
+      "/images/Devspark_NIAMT/Devspark_NIAMT_4.jpg",
+      "/images/Devspark_NIAMT/Devspark_NIAMT_5.jpg",
+      "/images/Devspark_NIAMT/Devspark_NIAMT_6.jpg",
+      "/images/Devspark_NIAMT/Devspark_NIAMT_7.jpg",
+      "/images/Devspark_NIAMT/Devspark_NIAMT_8.jpg",
+      "/images/Devspark_NIAMT/Devspark_NIAMT_9.jpg"
+    ]
   },
   {
     "title": "DevSpark Pre-Hype DevFest25 -- REC",
@@ -281,7 +297,14 @@
     "time": "1:30 PM -- 3:00 PM",
     "location": "Jharkhand Raksha Shakti University, Meurs Road, Ranchi, 834008",
     "institute": "Jharkhand Raksha Shakti University",
-    "slug": "devspark-pre-hype-devfest25-jrsu-september-12-2025-jharkhand-raksha-shakti-university"
+    "slug": "devspark-pre-hype-devfest25-jrsu-september-12-2025-jharkhand-raksha-shakti-university",
+    "images": [
+      "/images/Devspark_JRSU/Devspark_JRSU_1.jpg",
+      "/images/Devspark_JRSU/Devspark_JRSU_2.jpg",
+      "/images/Devspark_JRSU/Devspark_JRSU_3.jpg",
+      "/images/Devspark_JRSU/Devspark_JRSU_4.jpg",
+      "/images/Devspark_JRSU/Devspark_JRSU_5.jpg"
+    ]
   },
   {
     "title": "DevSpark Pre-Hype DevFest25 -- BIT Devghar",
@@ -311,6 +334,12 @@
     "time": "10:00 AM onwards",
     "location": "Biju Patnaik University of Technology (BPUT), Rourkela, Odisha",
     "institute": "Biju Patnaik University of Technology (BPUT)",
-    "slug": "devspark-pre-hype-devfest25-bput-september-19-2025-biju-patnaik-university-of-technology-bput"
+    "slug": "devspark-pre-hype-devfest25-bput-september-19-2025-biju-patnaik-university-of-technology-bput",
+    "images": [
+      "images/Devspark_BPUT/Devspark_BPUT_1.jpeg",
+      "images/Devspark_BPUT/Devspark_BPUT_2.jpeg",
+      "images/Devspark_BPUT/Devspark_BPUT_3.jpeg",
+      "images/Devspark_BPUT/Devspark_BPUT_4.jpeg"
+    ]
   }
 ]
