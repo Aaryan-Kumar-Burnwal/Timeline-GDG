@@ -33,7 +33,7 @@ export default function Hero() {
         />
 
         {/* Animated Title */}
-        <h1 className="text-4xl md:text-5xl font-extrabold mb-4 flex flex-wrap justify-center gap-1">
+        <h1 className="text-4xl md:text-5xl font-extrabold mb-4 flex flex-nowrap justify-center gap-1">
           {title.split("").map((char, index) => (
             <motion.span
               key={index}

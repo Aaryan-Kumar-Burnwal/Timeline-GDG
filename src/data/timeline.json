@@ -143,15 +143,7 @@
     "location": "Hybrid Online Offline",
     "institute": "",
     "slug": "gdg-ranchis-summer-traininginternship-program-2025-june-14-july-19-2025",
-    "images": [
-      "images/Summer_Training_Program/summer_internship_program_1.jpg",
-      "images/Summer_Training_Program/summer_internship_program_2.jpg",
-      "images/Summer_Training_Program/summer_internship_program_3.jpg",
-      "images/Summer_Training_Program/summer_internship_program_4.jpg",
-      "images/Summer_Training_Program/summer_internship_program_5.jpg",
-      "images/Summer_Training_Program/summer_internship_program_6.jpg",
-      "images/Summer_Training_Program/summer_internship_program_7.jpg"
-    ]
+    "images": ["images/Summer_Training_Program/summer_internship_program_1.jpg"]
   },
   {
     "title": "Jharkhand Entrepreneurial Connect 2.0",

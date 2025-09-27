@@ -226,26 +226,14 @@ export default function Timeline() {
                         </div>
 
                         {/* ABOUT excerpt aligned exactly with title/date/time */}
-                        {/* <div className="w-fit h-[150px] p-2 scroll-auto border-2 rounded-xl">
+                        <div className="w-fit h-[150px] p-2 scroll-auto border-2 rounded-xl">
                           <p
                             style={{ fontFamily: "'Poppins', sans-serif" }}
                             className="mt-3 h-[100px] text-sm text-white/70 line-clamp-3 max-w-[260px] text-center"
                           >
                             {ev.about}
                           </p>
-                        </div> */}
-
-                        {/* small image slider to display new articles */}
-                        {/* <div className="mb-3 overflow-hidden rounded-lg border border-white/6 mt-5">
-                          <ImageSlider
-                            images={ev.images || []}
-                            alt={ev.title}
-                            className="h-[200px] sm:h-[180px] md:h-[200px]"
-                            showDots
-                            showControls
-                            showCounter
-                          />
-                        </div> */}
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -262,15 +250,15 @@ export default function Timeline() {
                   {/* small connector to the card (only md) */}
                   <div
                     aria-hidden
-                    className={`hidden md:block absolute top-14  w-full ${
+                    className={`hidden md:block absolute top-14 ${
                       metaLeft
                         ? "right-1/2 translate-x-1/2"
-                        : " translate-x-1/2"
+                        : "left-1/2 -translate-x-1/2"
                     }`}
                   >
                     <div
-                      className="w-1/2"
                       style={{
+                        width: 26,
                         height: 4,
                         background: "linear-gradient(90deg,#16a34a,#22c55e)",
                         borderRadius: 4,
@@ -306,7 +294,7 @@ export default function Timeline() {
                         <ImageSlider
                           images={ev.images || []}
                           alt={ev.title}
-                          className="h-[350px] sm:h-[200px] md:h-[350px]"
+                          className="h-[180px] sm:h-[200px] md:h-[220px]"
                           showDots
                           showControls
                           showCounter
