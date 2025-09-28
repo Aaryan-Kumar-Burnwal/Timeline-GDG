@@ -131,7 +131,13 @@
     "time": "4:45 PM -- 7:00 PM",
     "location": "Online via MS Teams",
     "institute": "",
-    "slug": "wire-to-web-hands-on-webdev-workshop-june-12-2025"
+    "slug": "wire-to-web-hands-on-webdev-workshop-june-12-2025",
+    "images": [
+      "images/wire-to-web/wire-to-web_ (1).jpg",
+      "images/wire-to-web/wire-to-web_ (2).jpg",
+      "images/wire-to-web/wire-to-web_ (3).jpg",
+      "images/wire-to-web/wire-to-web_ (4).jpg"
+    ]
   },
   {
     "title": "GDG Ranchis Summer Training Internship Program 2025",
@@ -153,7 +159,12 @@
     "time": "09:30 AM - 04:30 PM",
     "location": "Jharkhand University of Technology (JUT), Ranchi, Jharkhand",
     "institute": "Jharkhand University of Technology (JUT)",
-    "slug": "jharkhand-entrepreneurial-connect-2-0-july-12-2025-jharkhand-university-of-technology-jut"
+    "slug": "jharkhand-entrepreneurial-connect-2-0-july-12-2025-jharkhand-university-of-technology-jut",
+    "images": [
+      "images/Jharkhand Entrepreneurial Connect/entrepreneurial_connect_1.png",
+      "images/Jharkhand Entrepreneurial Connect/entrepreneurial_connect_2.png",
+      "images/Jharkhand Entrepreneurial Connect/entrepreneurial_connect_3.png"
+    ]
   },
   {
     "title": "GDG Ranchi Tech Session at NSU",
@@ -163,7 +174,15 @@
     "time": "",
     "location": "Netaji Subhas University, Jamshedpur, Jharkhand",
     "institute": "Netaji Subhas University (NSU)",
-    "slug": "gdg-ranchi-tech-session-at-nsu-july-15-2025-netaji-subhas-university-nsu"
+    "slug": "gdg-ranchi-tech-session-at-nsu-july-15-2025-netaji-subhas-university-nsu",
+    "images": [
+      "images/Tech-Session-NSU/tech-session-nsu (1).jpg",
+      "images/Tech-Session-NSU/tech-session-nsu (2).jpg",
+      "images/Tech-Session-NSU/tech-session-nsu (3).jpg",
+      "images/Tech-Session-NSU/tech-session-nsu (4).jpg",
+      "images/Tech-Session-NSU/tech-session-nsu (5).jpg",
+      "images/Tech-Session-NSU/tech-session-nsu (6).jpg"
+    ]
   },
   {
     "title": "DC Gumla Cybersecurity Initiative with GDG Ranchi",
@@ -188,7 +207,8 @@
     "time": "10:30 AM - 6:30 PM",
     "location": "NSU Campus, Netaji Subhas University, Jamshedpur",
     "institute": "Netaji Subhas University (NSU)",
-    "slug": "hack8on-2025-july-26-2025-netaji-subhas-university-nsu"
+    "slug": "hack8on-2025-july-26-2025-netaji-subhas-university-nsu",
+    "images": ["images/hack8on/h8on_1.png", "images/hack8on/h8on_2.png"]
   },
   {
     "title": "National Symposium on Mathematical Innovations and Its Industrial Applications (NSMIIA 2025)",
@@ -248,7 +268,11 @@
     "time": "9:30 AM -- 11:30 AM",
     "location": "RVS College Of Engineering And Technology, Jamshedpur, Seminar Hall, Idalbera, 831012",
     "institute": "RVS College Of Engineering And Technology",
-    "slug": "devspark-pre-hype-devfest25-rvs-september-4-2025-rvs-college-of-engineering-and-technology"
+    "slug": "devspark-pre-hype-devfest25-rvs-september-4-2025-rvs-college-of-engineering-and-technology",
+    "images": [
+      "images/devspark-rvs/devspark_rvs_1.png",
+      "images/devspark-rvs/devspark_rvs_2.png"
+    ]
   },
   {
     "title": "DevSpark Pre-Hype DevFest25 -- IIT Dhanbad",
@@ -299,14 +323,24 @@
     ]
   },
   {
-    "title": "DevSpark Pre-Hype DevFest25 -- BIT Devghar",
+    "title": "DevSpark Pre-Hype DevFest25 -- BIT Deoghar",
     "about": "Join Google Developer Groups Ranchi for DevSpark at BIT Deoghar in collaboration with IEEE Society --- a pre-hype event for the highly anticipated DevFest 2025!",
     "description": "This event offers a chance to explore the latest trends in AI and Cloud development as a sneak peek for the bigger festival ahead. Attendees will explore the latest tools and innovations, gain hands-on exposure to real-world applications, receive cloud credits with guided training to explore Google Cloud, participate in quiz sessions where winners get exclusive free passes to DevFest 2025 Ranchi, and connect with tech leaders and like-minded peers. DevSpark ignites the energy, setting the stage for DevFest.",
     "date": "September 13, 2025",
     "time": "10:00 AM -- 11:30 AM",
     "location": "Birla Institute of Technology Deoghar, Seminar Hall, Jasidih, 814142",
     "institute": "Birla Institute of Technology Deoghar",
-    "slug": "devspark-pre-hype-devfest25-bit-devghar-september-13-2025-birla-institute-of-technology-deoghar"
+    "slug": "devspark-pre-hype-devfest25-bit-devghar-september-13-2025-birla-institute-of-technology-deoghar",
+    "images": [
+      "images/devspark-bit-deoghar/Devspark_BIT_Devghar_1.jpeg",
+      "images/devspark-bit-deoghar/Devspark_BIT_Devghar_2.jpeg",
+      "images/devspark-bit-deoghar/Devspark_BIT_Devghar_3.jpeg",
+      "images/devspark-bit-deoghar/Devspark_BIT_Devghar_4.jpeg",
+      "images/devspark-bit-deoghar/Devspark_BIT_Devghar_5.jpeg",
+      "images/devspark-bit-deoghar/Devspark_BIT_Devghar_6.jpeg",
+      "images/devspark-bit-deoghar/Devspark_BIT_Devghar_7.jpeg",
+      "images/devspark-bit-deoghar/Devspark_BIT_Devghar_8.jpeg"
+    ]
   },
   {
     "title": "DevFest 2025 Hype Event - Interactive Session with GDG Ranchi",
@@ -316,7 +350,12 @@
     "time": "Afternoon",
     "location": "Online (hosted by Haldia Institute of Technology, West Bengal)",
     "institute": "Haldia Institute of Technology (HIT)",
-    "slug": "devfest-2025-hype-event-interactive-session-with-gdg-ranchi-september-13-2025-haldia-institute-of-technology-hit"
+    "slug": "devfest-2025-hype-event-interactive-session-with-gdg-ranchi-september-13-2025-haldia-institute-of-technology-hit",
+    "images": [
+      "images/devspark-prehype-HIT/devspark_hit_1.png",
+      "images/devspark-bit-deoghar/Devspark_BIT_Devghar_2.jpeg",
+      "images/devspark-bit-deoghar/Devspark_BIT_Devghar_3.jpeg"
+    ]
   },
   {
     "title": "DevSpark : Pre-Hype DevFest'25 -- BPUT (GoogleDev Spark – Pre Hype)",
@@ -329,9 +368,9 @@
     "slug": "devspark-pre-hype-devfest25-bput-september-19-2025-biju-patnaik-university-of-technology-bput",
     "images": [
       "images/Devspark_BPUT/Devspark_BPUT_1.jpeg",
-      "images/Devspark_BPUT/Devspark_BPUT_2.jpeg",
-      "images/Devspark_BPUT/Devspark_BPUT_3.jpeg",
-      "images/Devspark_BPUT/Devspark_BPUT_4.jpeg"
+      "images/Devspark_BPUT/Devspark_BPUT_2.jpg",
+      "images/Devspark_BPUT/Devspark_BPUT_3.jpg",
+      "images/Devspark_BPUT/Devspark_BPUT_4.jpg"
     ]
   }
 ]

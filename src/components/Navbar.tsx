@@ -22,7 +22,6 @@ bg-gradient-to-r from-[#1a237e] via-[#1e88e5] to-[#34a853]
 shadow-md rounded-4xl"
     >
       {/* Overlay for readability */}
-      <div className="absolute inset-0 bg-black/30"></div>
 
       <div className="relative container mx-auto flex justify-between items-center py-4 px-6 z-10 ">
         {/* Logo */}

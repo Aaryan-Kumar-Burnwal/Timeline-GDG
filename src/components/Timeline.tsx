@@ -138,7 +138,7 @@ export default function Timeline() {
                       </div>
                       <div
                         style={{ fontFamily: "'Playfair Display', serif" }}
-                        className="text-2xl sm:text-3xl font-extrabold text-white -mt-1"
+                        className="text-2xl border-amber-300 sm:text-3xl font-extrabold text-white -mt-1"
                       >
                         {ev.timeline || ev.date}
                       </div>
