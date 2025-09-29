@@ -226,14 +226,14 @@ export default function Timeline() {
                         </div>
 
                         {/* ABOUT excerpt aligned exactly with title/date/time */}
-                        <div className="w-fit h-[150px] p-2 scroll-auto border-2 rounded-xl">
+                        {/* <div className="w-fit h-[150px] p-2 scroll-auto border-2 rounded-xl">
                           <p
                             style={{ fontFamily: "'Poppins', sans-serif" }}
                             className="mt-3 h-[100px] text-sm text-white/70 line-clamp-3 max-w-[260px] text-center"
                           >
                             {ev.about}
                           </p>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>
@@ -243,24 +243,23 @@ export default function Timeline() {
                 <div
                   className={`w-full md:w-[16.666%] flex justify-center items-start ${centerOrderClass} relative`}
                 >
-                  <div className="relative z-30 mt-3 md:mt-6">
+                  <div className="relative z-30 mt-3 md:mt-6 ">
                     <div className="w-4 h-4 rounded-full bg-white border-2 border-[#16a34a]" />
                   </div>
 
                   {/* small connector to the card (only md) */}
                   <div
                     aria-hidden
-                    className={`hidden md:block absolute top-14 ${
-                      metaLeft
-                        ? "right-1/2 translate-x-1/2"
-                        : "left-1/2 -translate-x-1/2"
+                    className={`hidden md:block absolute top-14 w-full ${
+                      metaLeft ? "right-1/2 translate-x-1/2" : "left-1/2 "
                     }`}
                   >
                     <div
+                      className="w-[50%] "
                       style={{
-                        width: 26,
                         height: 4,
-                        background: "linear-gradient(90deg,#16a34a,#22c55e)",
+                        background:
+                          "linear-gradient(90deg,#16a34a,#22c55e) w-full",
                         borderRadius: 4,
                       }}
                     />
@@ -294,7 +293,7 @@ export default function Timeline() {
                         <ImageSlider
                           images={ev.images || []}
                           alt={ev.title}
-                          className="h-[180px] sm:h-[200px] md:h-[220px]"
+                          className="h-[300px] sm:h-[300px] md:h-[300px]"
                           showDots
                           showControls
                           showCounter
