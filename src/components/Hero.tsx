@@ -10,12 +10,20 @@ export default function Hero() {
 
   return (
     <section
-      className="relative min-h-screen flex flex-col justify-center items-center text-center px-6 
-      animate-gradient bg-[radial-gradient(circle_at_top_left,#4285F4,transparent_30%),radial-gradient(circle_at_bottom_right,#EA4335,transparent_30%)] 
-      bg-gradient-to-r from-[#34A853] via-[#FBBC05] to-[#EA4335] bg-[length:200%_200%] bg-[position:0%_50%]"
+      className="relative min-h-screen flex flex-col justify-center items-center text-center px-6
+  animate-gradient bg-[radial-gradient(circle_at_top_left,#4285F4,transparent_30%),radial-gradient(circle_at_bottom_right,#EA4335,transparent_30%)]
+  bg-gradient-to-r from-[#34A853] via-[#FBBC05] to-[#EA4335] bg-[length:200%_200%] bg-[position:0%_50%]"
     >
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/30"></div>
+      {/* Hero Background Image */}
+      <div className="absolute inset-0 -z-10  ">
+        <Image
+          src="/images/hero-img.png"
+          alt="GDG Ranchi Hero"
+          layout="fill"
+          objectFit="contain"
+          className="opacity-70 mt-20 " // optional: makes overlay text more readable
+        />
+      </div>
 
       <motion.div
         initial={{ opacity: 0, y: 40 }}
@@ -29,7 +37,7 @@ export default function Hero() {
           alt="GDG Ranchi"
           width={100}
           height={70}
-          className=" p-1 mx-auto mb-6 shadow-xl "
+          className="p-1 mx-auto mb-6 shadow-xl"
         />
 
         {/* Animated Title */}
@@ -63,7 +71,7 @@ export default function Hero() {
           whileHover={{ y: -1 }}
           whileTap={{ scale: 0.98 }}
           className="inline-flex items-center gap-2 px-8 py-4 bg-blue-600 text-white font-semibold 
-          rounded-lg shadow-lg hover:bg-blue-700 hover:shadow-xl transition-all duration-300 mb-12"
+      rounded-lg shadow-lg hover:bg-blue-700 hover:shadow-xl transition-all duration-300 mb-12"
         >
           Join Our Community
           <span className="text-lg">→</span>
@@ -71,61 +79,7 @@ export default function Hero() {
 
         {/* Social Links */}
         <div className="flex justify-center gap-8">
-          <motion.a
-            href="https://x.com/gdgrnc"
-            target="_blank"
-            rel="noopener noreferrer"
-            whileHover={{ y: -2 }}
-            className="p-3 rounded-full bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 shadow-lg hover:shadow-xl transition-all duration-300 
-            text-gray-400 hover:text-white group"
-          >
-            <Twitter
-              size={24}
-              className="group-hover:scale-110 transition-transform duration-200"
-            />
-          </motion.a>
-
-          <motion.a
-            href="https://www.instagram.com/gdgranchi/"
-            target="_blank"
-            rel="noopener noreferrer"
-            whileHover={{ y: -2 }}
-            className="p-3 rounded-full bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 shadow-lg hover:shadow-xl transition-all duration-300 
-            text-gray-400 hover:text-[#E4405F] group"
-          >
-            <Instagram
-              size={24}
-              className="group-hover:scale-110 transition-transform duration-200"
-            />
-          </motion.a>
-
-          <motion.a
-            href="https://www.linkedin.com/company/gdgrnc/posts/?feedView=all"
-            target="_blank"
-            rel="noopener noreferrer"
-            whileHover={{ y: -2 }}
-            className="p-3 rounded-full bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 shadow-lg hover:shadow-xl transition-all duration-300 
-            text-gray-400 hover:text-[#0A66C2] group"
-          >
-            <Linkedin
-              size={24}
-              className="group-hover:scale-110 transition-transform duration-200"
-            />
-          </motion.a>
-
-          <motion.a
-            href="https://www.youtube.com/@GDGRanchi"
-            target="_blank"
-            rel="noopener noreferrer"
-            whileHover={{ y: -2 }}
-            className="p-3 rounded-full bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 shadow-lg hover:shadow-xl transition-all duration-300 
-            text-gray-400 hover:text-[#FF0000] group"
-          >
-            <Youtube
-              size={24}
-              className="group-hover:scale-110 transition-transform duration-200"
-            />
-          </motion.a>
+          {/* Your social links here */}
         </div>
       </motion.div>
     </section>
