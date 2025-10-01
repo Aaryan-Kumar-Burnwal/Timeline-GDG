@@ -25,89 +25,94 @@ type Event = {
 
 export default function Timeline() {
   const timelineRef = useRef<HTMLDivElement>(null);
+  const [selectedEvent, setSelectedEvent] = useState<Event | null>(null);
 
   useEffect(() => {
     const sections = timelineRef.current?.querySelectorAll(".timeline-event");
     if (!sections) return;
 
-    sections.forEach((section, idx) => {
+    sections.forEach((section) => {
       const meta = section.querySelector(".meta") as HTMLElement;
       const card = section.querySelector(".card") as HTMLElement;
-      const line = section.querySelector(".connector") as HTMLElement;
 
       gsap.set(meta, { xPercent: -50, left: "50%", position: "relative" });
       gsap.set(card, { opacity: 0, y: 200 });
-      gsap.set(line, { scaleY: 0, transformOrigin: "top center" });
 
+      // timeline per event
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: section,
           start: "top 70%",
           end: "bottom 40%",
-          scrub: 1,
+          scrub: true,
+          markers: false,
         },
       });
-      
 
-      // Step 1: metadata enters at center
+      // Step 1: metadata enters at exact center
       tl.fromTo(
         meta,
         { opacity: 0, scale: 0.8 },
-        { opacity: 1, scale: 1.1, duration: 1.2, ease: "power3.out" }
+        { opacity: 1, scale: 1.1, duration: 1, ease: "power2.out" }
       );
 
-      // Step 2: image enters from bottom
+      // Step 2: image enters from bottom, metadata still stays center
       tl.fromTo(
         card,
-        { y: 200, opacity: 0, scale: 0.85 },
-        { y: 0, opacity: 1, scale: 1.05, duration: 1.2, ease: "power3.out" },
-        "+=0.3"
+        { y: 200, opacity: 0, scale: 0.8 },
+        {
+          y: 0,
+          opacity: 1,
+          scale: 1.05,
+          duration: 1,
+          ease: "power2.out",
+        },
+        "+=0.4"
       );
 
-      // Step 3: push metadata left while image takes its spot
+      // Step 3: push metadata left while image takes position
       tl.to(
         meta,
         {
-          xPercent: 0,
+          xPercent: 0, // remove center offset
           left: "0%",
           scale: 1,
-          duration: 1,
+          duration: 0.8,
           ease: "power2.inOut",
         },
         "<"
       );
 
-      tl.to(card, { scale: 1, duration: 0.8, ease: "power2.inOut" }, "-=0.2");
-
-      // Step 4: extend connector line AFTER both cards settled
-      if (line) {
-        tl.to(line, {
-          scaleY: 1,
-          duration: 1,
+      // Step 4: settle image in final position
+      tl.to(
+        card,
+        {
+          scale: 1,
+          duration: 0.8,
           ease: "power2.inOut",
-        });
-      }
+        },
+        "-=0.3"
+      );
     });
   }, []);
 
   return (
     <section
       ref={timelineRef}
-      className="timeline-bg relative py-16 px-4 sm:px-6 lg:px-8 bg-[#071018]"
+      className="relative py-16 px-4 sm:px-6 lg:px-8 bg-[#071018]"
     >
       {/* Header */}
       <div className="max-w-6xl mx-auto text-center mb-12">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-black">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white">
           Our Journey
         </h2>
-        <p className="mt-3 text-sm sm:text-base text-black max-w-2xl mx-auto ">
+        <p className="mt-3 text-sm sm:text-base text-white/75 max-w-2xl mx-auto">
           A quick look at our milestones and the events that shaped GDG Ranchi.
         </p>
       </div>
 
-      {/* Events */}
       <div className="max-w-6xl mx-auto relative flex flex-col gap-y-36">
-        {(events as Event[]).map((ev, idx) => (
+        {(events as Event[]).map((ev) => (
           <div
             key={ev.slug}
             className="timeline-event relative flex flex-col md:flex-row items-start gap-8"
@@ -138,11 +143,6 @@ export default function Timeline() {
                 />
               </div>
             </div>
-
-            {/* Connector line (appears AFTER this section animates) */}
-            {idx < (events as Event[]).length - 1 && (
-              <div className="absolute left-1/2 top-full w-[3px] h-36 bg-gradient-to-b from-green-400 via-blue-500 to-purple-600 transform -translate-x-1/2 connector rounded-full" />
-            )}
           </div>
         ))}
       </div>

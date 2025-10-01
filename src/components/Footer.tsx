@@ -7,7 +7,7 @@ export default function Footer() {
     <footer
       className="relative text-gray-900 py-8 px-6 
       bg-[length:200%_200%] bg-[position:0%_50%] animate-gradient 
-      bg-gradient-to-r from-[#1a237e] via-[#1e88e5] to-[#34a853]"
+      bg-gradient-to-r from-[#1a237e] via-[#1e88e5] to-[#34a853] mt-40"
     >
       <div className="relative z-10 text-center">
         {/* Brand */}
