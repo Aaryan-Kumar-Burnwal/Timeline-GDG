@@ -3,7 +3,12 @@
 import * as React from "react";
 import { useRef, useEffect, useState } from "react";
 import ImageSlider from "./ImageSlider";
-import { GraduationCap, CalendarCheck, MapPinCheck } from "lucide-react";
+import {
+  GraduationCap,
+  CalendarCheck,
+  MapPinCheck,
+  BadgeInfo,
+} from "lucide-react";
 import events from "../data/timeline.json";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
@@ -113,26 +118,13 @@ export default function Timeline() {
           >
             {/* Metadata card */}
             <div className="meta w-full md:w-5/12">
-              <div className="group relative bg-gradient-to-br from-[#0f1720] via-[#1a2332] to-[#0f1720] p-8 rounded-3xl shadow-2xl border border-white/20 hover:border-emerald-500/50 transition-all duration-500 hover:shadow-emerald-500/20 hover:shadow-xl text-center md:text-left overflow-hidden">
-                {/* Ambient glow effect */}
-                <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/5 via-transparent to-blue-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-
-                {/* Subtle grid pattern overlay */}
-                <div
-                  className="absolute inset-0 opacity-5"
-                  style={{
-                    backgroundImage:
-                      "radial-gradient(circle at 1px 1px, white 1px, transparent 0)",
-                    backgroundSize: "24px 24px",
-                  }}
-                ></div>
-
+              <div className="group relative bg-black p-8 rounded-3xl shadow-2xl hover:shadow-xl text-center md:text-left overflow-hidden">
                 <div className="relative z-10">
                   <header className="flex items-center gap-4 mb-4 justify-center md:justify-start">
-                    <div className="bg-emerald-500/10 p-3 rounded-xl group-hover:bg-emerald-500/20 transition-colors duration-300 backdrop-blur-sm">
-                      <CalendarCheck className="w-7 h-7 text-emerald-400 group-hover:scale-110 transition-transform duration-300" />
+                    <div className="">
+                      <CalendarCheck className="w-7 h-7 text-emerald-400 " />
                     </div>
-                    <h3 className="text-2xl md:text-4xl font-bold text-white tracking-tight bg-gradient-to-r from-white to-white/80 bg-clip-text">
+                    <h3 className="text-2xl md:text-4xl font-bold text-white tracking-tight">
                       {ev?.timeline || ev.date}
                     </h3>
                   </header>
@@ -143,37 +135,20 @@ export default function Timeline() {
 
                   <div className="space-y-3 mt-6">
                     <div className="flex items-center gap-2.5 text-white/80 hover:text-white transition-colors group/location justify-center md:justify-start">
-                      <div className="bg-emerald-500/10 p-2 rounded-lg">
+                      <div className=" p-2 rounded-lg">
                         <MapPinCheck className="w-5 h-5 text-emerald-400" />
                       </div>
                       <p className="text-base">{ev.location}</p>
                     </div>
 
                     <div className="flex items-start gap-2.5 text-white/70 justify-center md:justify-start">
-                      <div className="bg-white/5 p-2 rounded-lg mt-0.5">
-                        <svg
-                          className="w-5 h-5 text-white/60"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                          />
-                        </svg>
-                      </div>
+                      <BadgeInfo className="text-lg text-blue-300" />
                       <p className="text-sm leading-relaxed flex-1">
                         {ev.about}
                       </p>
                     </div>
                   </div>
                 </div>
-
-                {/* Corner accent */}
-                <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-emerald-500/10 to-transparent rounded-bl-full opacity-50"></div>
               </div>
             </div>
 

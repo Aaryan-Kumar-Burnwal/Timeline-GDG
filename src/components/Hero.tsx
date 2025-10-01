@@ -45,7 +45,7 @@ export default function Hero() {
 so the gradient flows across the whole title (not repeated per char).
 */}
           <span
-            className="bg-clip-text text-transparent"
+            className="bg-clip-text text-transparent font-productSans"
             style={{
               // Google theme: red, yellow, blue, green
               background:

@@ -18,7 +18,6 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;600&display=swap"
           rel="stylesheet"
         />
-        <Navbar />
         <main>{children}</main>
       </body>
     </html>
