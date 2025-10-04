@@ -386,14 +386,14 @@ export default function UpcomingEventsPage() {
             />
 
             {/* Bottom sand*/}
-            {/* <motion.polygon
+            <motion.polygon
               points="60,260 140,260 100,150"
               fill="url(#sandGrad)"
               style={{ transformOrigin: "100px 260px" }}
               animate={{ scaleY: bottomScale }}
               transition={{ duration: 1, ease: "linear" }}
-            /> */}
-            <g clipPath="url(#glassClip)">
+            />
+            {/* <g clipPath="url(#glassClip)">
               <motion.polygon
                 points="60,260 140,260 100,150"
                 fill="url(#sandGrad)"
@@ -401,7 +401,7 @@ export default function UpcomingEventsPage() {
                 animate={{ scaleY: Math.max(bottomScale, 0.05) }}
                 transition={{ duration: 1, ease: "linear" }}
               />
-            </g>
+            </g> */}
 
             {/* Falling particles (dynamic ones emitted each second) */}
             {fallingParticles.map((p) => (

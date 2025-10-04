@@ -32,14 +32,16 @@ export default function Footer() {
       transition={{ duration: 0.8 }}
       className=" text-gray-800 py-12 mt-12 backdrop-blur-2xl"
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-12 grid grid-cols-1 md:grid-cols-3 gap-8 ">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12 grid grid-cols-1 md:grid-cols-2 gap-8 ">
         {/* About */}
         <motion.div
           initial={{ x: -40, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-xl font-semibold text-gray-800 mb-4">GDG Ranchi</h2>
+          <h2 className="text-xl font-semibold text-gray-800 mb-4">
+            GDG Ranchi
+          </h2>
           <p className="text-gray-800 text-lg leading-relaxed">
             A vibrant developer community passionate about learning, sharing,
             and building innovative solutions. Join us in our journey of tech,
@@ -48,25 +50,6 @@ export default function Footer() {
         </motion.div>
 
         {/* Quick Links */}
-        <motion.div
-          initial={{ y: 40, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.6 }}
-        >
-          <h2 className="text-xl font-semibold text-white mb-4">Quick Links</h2>
-          <ul className="space-y-2 text-gray-800 text-lg">
-            {navLinks.map((link, i) => (
-              <li key={i}>
-                <Link
-                  href={link.href}
-                  className="hover:text-blue-400 transition"
-                >
-                  {link.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </motion.div>
 
         {/* Social */}
         <motion.div
@@ -75,7 +58,7 @@ export default function Footer() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-xl font-semibold text-gray-800 mb-4">Connect</h2>
-          <div className="flex gap-4 text-gray-800 text-xl">
+          <div className="flex  gap-4 text-gray-800 text-xl">
             {socials.map((s, i) => (
               <motion.a
                 key={i}
