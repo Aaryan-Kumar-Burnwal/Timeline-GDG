@@ -329,7 +329,7 @@
     ]
   },
   {
-    "title": "DevSpark Pre-Hype DevFest25 -- BIT Deoghar",
+    "title": "DevFest 2025 Pre-Hype Event -- BIT Deoghar",
     "about": "Join Google Developer Groups Ranchi for DevSpark at BIT Deoghar in collaboration with IEEE Society --- a pre-hype event for the highly anticipated DevFest 2025!",
     "description": "This event offers a chance to explore the latest trends in AI and Cloud development as a sneak peek for the bigger festival ahead. Attendees will explore the latest tools and innovations, gain hands-on exposure to real-world applications, receive cloud credits with guided training to explore Google Cloud, participate in quiz sessions where winners get exclusive free passes to DevFest 2025 Ranchi, and connect with tech leaders and like-minded peers. DevSpark ignites the energy, setting the stage for DevFest.",
     "date": "September 13, 2025",
@@ -349,7 +349,7 @@
     ]
   },
   {
-    "title": "DevFest 2025 Hype Event - Interactive Session with GDG Ranchi",
+    "title": "DevFest 2025 Pre-Hype Event -- Haldia Institute of Technology",
     "about": "We organized an interactive online session in collaboration with GDG On Campus HIT to connect students with the organizers of the upcoming DevFest 2025 at BIT Mesra, Ranchi. This hype event served as a platform for students to directly engage with the GDG Ranchi team and learn about DevFest opportunities.",
     "description": "We conducted an engaging online session where students from HIT had the opportunity to ask questions directly to the GDG Ranchi team about the upcoming DevFest 2025. The discussion provided valuable insights into DevFest, its opportunities, and the wider GDG community. Many students received exclusive discounts and free tickets for DevFest, making the session highly rewarding. Special thanks to Tushar Raj (GDG Ranchi Organizer), Vikas Shukla, and Vickey Pandey, who joined the session, actively engaged with students, and patiently cleared their doubts about the upcoming DevFest. The event was made possible through the constant support and guidance of POCs Anurag Anand and Ayush Sahu. This collaborative effort between GDG On Campus HIT and GDG Ranchi successfully generated excitement and awareness about DevFest 2025, while providing students direct access to organizers and exclusive benefits for the main event scheduled for October 11, 2025 at BIT Mesra, Ranchi.",
     "date": "September 13, 2025",
@@ -361,6 +361,24 @@
       "images/devspark-prehype-HIT/devspark_hit_1.png",
       "images/devspark-bit-deoghar/Devspark_BIT_Devghar_2.jpeg",
       "images/devspark-bit-deoghar/Devspark_BIT_Devghar_3.jpeg"
+    ]
+  },
+  {
+    "title": "DevFest 2025 Pre-Hype Event -- RKDF",
+    "about": "RKDF about",
+    "description": "RKDF desc",
+    "date": "September 15, 2025",
+    "time": "Afternoon",
+    "location": "RKDF, Ranchi",
+    "institute": "RKDF Ranchi",
+    "slug": "devfest-2025-hype-event-RKDF",
+    "images": [
+      "images/Devspark_RKDF/devspark_RKDF_1.jpg",
+      "images/Devspark_RKDF/devspark_RKDF_2.jpg",
+      "images/Devspark_RKDF/devspark_RKDF_3.jpg",
+      "images/Devspark_RKDF/devspark_RKDF_4.jpg",
+      "images/Devspark_RKDF/devspark_RKDF_5.jpg",
+      "images/Devspark_RKDF/devspark_RKDF_6.jpg"
     ]
   },
   {
