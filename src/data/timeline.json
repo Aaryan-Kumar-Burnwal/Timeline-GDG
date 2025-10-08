@@ -149,7 +149,11 @@
     "location": "Hybrid Online Offline",
     "institute": "",
     "slug": "gdg-ranchis-summer-traininginternship-program-2025-june-14-july-19-2025",
-    "images": ["images/Summer_Training_Program/summer_internship_program_1.jpg"]
+    "images": [
+      "images/Summer_Training_Program/summer_internship_program_1.jpg",
+      "images/Summer_Training_Program/summer_internship_program_2.jpg",
+      "images/Summer_Training_Program/summer_internship_program_3.jpg"
+    ]
   },
   {
     "title": "Jharkhand Entrepreneurial Connect 2.0",
@@ -445,9 +449,9 @@
     "institute": "Biju Patnaik University of Technology (BPUT)",
     "slug": "devspark-pre-hype-devfest25-bput-september-19-2025-biju-patnaik-university-of-technology-bput",
     "images": [
+      "images/Devspark_BPUT/Devspark_BPUT_3.jpg",
       "images/Devspark_BPUT/Devspark_BPUT_1.jpeg",
       "images/Devspark_BPUT/Devspark_BPUT_2.jpg",
-      "images/Devspark_BPUT/Devspark_BPUT_3.jpg",
       "images/Devspark_BPUT/Devspark_BPUT_4.jpg"
     ]
   },

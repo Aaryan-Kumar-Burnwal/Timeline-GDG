@@ -513,28 +513,28 @@ export default function HeroSection() {
               ref={centerImageRef}
             />
             <img
-              src="/images/hero/background.png"
+              src="/images/hero/cover-img.jpg"
               alt="top"
               className="cover-image"
               id="cover-image-top"
               loading="eager"
             />
             <img
-              src="/images/hero/background.png"
+              src="/images/hero/cover-img.jpg"
               alt="right"
               className="cover-image"
               id="cover-image-right"
               loading="eager"
             />
             <img
-              src="/images/hero/background.png"
+              src="/images/hero/cover-img.jpg"
               alt="bottom"
               className="cover-image"
               id="cover-image-bottom"
               loading="eager"
             />
             <img
-              src="/images/hero/background.png"
+              src="/images/hero/cover-img.jpg"
               alt="left"
               className="cover-image"
               id="cover-image-left"
