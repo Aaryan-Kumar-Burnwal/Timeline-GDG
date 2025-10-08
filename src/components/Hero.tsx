@@ -14,7 +14,7 @@ export default function Hero() {
         bg-[length:200%_200%] bg-[position:0%_50%] overflow-hidden"
     >
       <svg
-        className="w-[120px] absolute left-30 top-1  rotate-40"
+        className="w-[30px] sm:w-[120px] absolute sm:left-30 left-10 sm:top-1 top-7  rotate-40"
         fill="#000000"
         viewBox="0 0 32 32"
         version="1.1"
@@ -59,7 +59,7 @@ export default function Hero() {
         /> */}
       </motion.div>
       <svg
-        className="w-[30px] sm:w-[120px] absolute right-10 bottom-1 rotate-30 "
+        className="w-[30px] sm:w-[120px] absolute right-10 sm:bottom-1 bottom-9 rotate-30 "
         viewBox="0 0 24 24"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
